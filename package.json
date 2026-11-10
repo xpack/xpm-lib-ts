@@ -34,16 +34,13 @@
     "url": "https://github.com/xpack/xpm-lib-ts/issues"
   },
   "homepage": "https://xpack.github.io/xpm-lib-ts/",
-  "dependencies": {
-    "@xpack/logger": "^6.0.0",
-    "liquidjs": "^10.27.0",
-    "semver": "^7.8.0"
-  },
   "$dependenciesUrls": {
-    "@tsconfig/node20": "https://www.npmjs.com/package/@tsconfig/node20",
+    "@tsconfig/node22": "https://www.npmjs.com/package/@tsconfig/node22",
     "del-cli": "https://www.npmjs.com/package/del-cli",
     "json": "https://www.npmjs.com/package/json",
     "liquidjs": "https://www.npmjs.com/package/liquidjs",
+    "glob": "https://www.npmjs.com/package/glob",
+    "semver": "https://www.npmjs.com/package/semver",
     "@types/node": "https://www.npmjs.com/package/@types/node",
     "@types/tap": "https://www.npmjs.com/package/@types/tap",
     "tap": "https://www.npmjs.com/package/tap",
@@ -53,20 +50,24 @@
     "eslint-config-prettier": "https://www.npmjs.com/package/eslint-config-prettier",
     "typescript-eslint": "https://www.npmjs.com/package/typescript-eslint",
     "prettier": "https://www.npmjs.com/package/prettier",
-    "typescript": "https://www.npmjs.com/package/typescript",
-    "glob": "https://www.npmjs.com/package/glob"
+    "typescript": "https://www.npmjs.com/package/typescript"
+  },
+  "dependencies": {
+    "@xpack/logger": "^6.0.0",
+    "liquidjs": "^10.27.0",
+    "semver": "^7.8.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@tsconfig/node20": "^20.1.10",
+    "@tsconfig/node22": "^22.0.6",
     "@types/decompress": "^4.2.7",
     "@types/node": "^26.6.6",
     "@types/npmcli__arborist": "^6.3.1",
     "@types/pacote": "^11.1.8",
     "@types/proxy-from-env": "^1.0.4",
-    "@types/semver": "^7.7.1",
+    "@types/semver": "^7.8.0",
     "@types/tap": "^15.0.12",
-    "del-cli": "^7.0.0",
+    "del-cli": "^8.0.1",
     "eslint": "^10.14.0",
     "eslint-config-prettier": "^10.1.8",
     "glob": "^14.0.4",
@@ -89,7 +90,7 @@
     "npm-install": "npm install",
     "npm-link": "npm link",
     "npm-link-helpers": "npm link @xpack/npm-packages-helper @xpack/docusaurus-template-liquid",
-    "npm-link-deps": "npm link @xpack/logger @xpack/npm-packages-helper",
+    "npm-link-deps": "npm link @xpack/logger",
     "npm-outdated": "npm outdated",
     "npm-update": "npm update",
     "postversion": "git push origin --all && git push origin --tags",
@@ -136,6 +137,6 @@
     "hasWebsite": "true"
   },
   "engines": {
-    "node": ">=20.0"
+    "node": ">=22.0"
   }
 }

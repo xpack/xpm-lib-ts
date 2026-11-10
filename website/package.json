@@ -8,7 +8,7 @@
     "npm-outdated": "npm outdated",
     "npm-install": "npm install",
     "npm-link-helpers": "npm link @xpack/docusaurus-template-liquid @xpack/npm-packages-helper",
-    "npm-link-deps": "npm link @xpack/tsdoc2docusaurus  @xpack/docusaurus-template-liquid @xpack/npm-packages-helper",
+    "npm-link-deps": "npm link @xpack/tsdoc2docusaurus",
     "npm-ci": "npm ci",
     "clean": "del-cli .docusaurus build",
     "deep-clean": "del-cli .docusaurus build node_modules package-lock.json",

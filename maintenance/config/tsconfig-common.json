@@ -3,13 +3,26 @@
   // npm-packages-helper/templates/common/maintenance/config/_xpack/tsconfig-common-liquid.json
   //
   // Visit https://aka.ms/tsconfig to read more about this file
-  // https://www.npmjs.com/package/@tsconfig/node20
+  // https://www.npmjs.com/package/@tsconfig/node22
   //
-  // TODO: update to node22 in the final xpm 1.x release.
-  "extends": "@tsconfig/node20/tsconfig.json",
+  // TODO: update to node24 in the final xpm 1.x release.
+  "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
+    // node22
+    // "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+    // "module": "nodenext",
+    // "target": "es2022",
+    // "types": ["node"],
+
+    // "strict": true,
+    // "esModuleInterop": true,
+    // "skipLibCheck": true,
+    // "moduleResolution": "node16"
+
     // Include Node.js global type declarations (console, process, etc.).
-    "types": ["node"],
+    // "types": [
+    //   "node"
+    // ],
     // Generate .d.ts files from TypeScript and JavaScript files in your project.
     "declaration": true,
     // Create sourcemaps for d.ts files.                 
@@ -24,7 +37,7 @@
     "removeComments": true,
     // Emit additional JavaScript to ease support for importing CommonJS modules. 
     // This enables `allowSyntheticDefaultImports` for type compatibility.
-    "esModuleInterop": true,
+    // "esModuleInterop": true,
     // Ensure that casing is correct in imports.
     "forceConsistentCasingInFileNames": true,
   }

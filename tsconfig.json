@@ -10,7 +10,8 @@
   },
   "exclude": [
     "tests",
-    "website"
+    "website",
+    "maintenance"
   ],
   "include": [
     "src/**/*.ts"
