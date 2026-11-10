@@ -76,7 +76,7 @@
     "prettier": "^3.9.10",
     "tap": "^21.8.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.2"
   },
   "scripts": {
