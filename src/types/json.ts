@@ -275,8 +275,7 @@ export type JsonTemplateMatrixContent = string[]
  * Represents a JSON build configuration definition or a template of one.
  */
 export type JsonBuildConfiguration =
-  | JsonBuildConfigurationContent
-  | JsonBuildConfigurationTemplate
+  JsonBuildConfigurationContent | JsonBuildConfigurationTemplate
 
 /**
  * Represents a JSON map of build configuration definitions.
