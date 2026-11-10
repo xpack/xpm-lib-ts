@@ -80,7 +80,7 @@ jobs:
             'windows-2025'
           ]
         # https://nodejs.org/en - use LTS
-        node-version: ['22, 24, 26']
+        node-version: ['22', '24', '26']
 
     steps:
       - name: Checkout
