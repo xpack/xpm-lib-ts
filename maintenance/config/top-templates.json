@@ -1,5 +1,6 @@
 {
   "descriptiveName": "xpm Core Library",
+  "permalinkName": "xpm-lib",
   "preferredName": "xpm Core Library",
   "githubActionsNodeVersions": [
     "20",
@@ -13,11 +14,15 @@
     "macos-15",
     "windows-2025"
   ],
+  "githubActionsXpmVersions": [
+    "0.23.2"
+  ],
   "hasWebsite": true,
-  "testCoverage": true,
   "isTypescript": true,
+  "testCoverage": true,
   "useEslint": true,
-  "useTypescriptEslint": true,
   "usePrettier": true,
-  "useTap": true
+  "useSelfHostedRunners": false,
+  "useTap": true,
+  "useTypescriptEslint": true
 }
