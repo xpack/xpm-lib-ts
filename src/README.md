@@ -1,6 +1,7 @@
 # Source Code Documentation
 
-This folder contains the TypeScript source files that provide the core functionality of the xpm-lib library.
+This folder contains the TypeScript source files that provide the core
+functionality of the xpm-lib library.
 
 ## Overview
 
@@ -10,11 +11,14 @@ This folder contains the TypeScript source files that provide the core functiona
 
 ## Architecture
 
-The library implements a sophisticated **two-phase lazy evaluation pattern** for optimal performance:
+The library implements a sophisticated **two-phase lazy evaluation pattern**
+for optimal performance:
 
 ### Phase 1: Collection Initialisation
 
-When `Actions` or `BuildConfigurations` collections are initialised, only template names are expanded using matrix parameters. Template content remains unevaluated.
+When `Actions` or `BuildConfigurations` collections are initialised, only
+template names are expanded using matrix parameters. Template content
+remains unevaluated.
 
 ```typescript
 const buildConfigurations = new BuildConfigurations({ ... })
@@ -23,7 +27,8 @@ await buildConfigurations.initialise()  // Expands names only
 
 ### Phase 2: Item Retrieval & Initialisation
 
-Individual items are fully evaluated only when accessed and explicitly initialised:
+Individual items are fully evaluated only when accessed and explicitly
+initialised:
 
 ```typescript
 const config = buildConfigurations.get('release-x64')
@@ -79,17 +84,22 @@ src/
 
 #### Core Domain Classes
 
-- **`BuildConfigurations`** / **`BuildConfiguration`** - Manages build configurations with inheritance, template expansion, and property merging
-- **`Actions`** / **`Action`** - Manages executable actions with Liquid template support
-- **`DataModel`** - Top-level coordinator for package processing and variable hierarchy
+- **`BuildConfigurations`** / **`BuildConfiguration`** - Manages build
+  configurations with inheritance, template expansion, and property merging
+- **`Actions`** / **`Action`** - Manages executable actions with Liquid
+  template support
+- **`DataModel`** - Top-level coordinator for package processing and
+  variable hierarchy
 - **`Package`** - Package.json loading, validation, and capability detection
 
 #### Template Processing
 
 - **`TemplateExpander`** - Generic template expansion with matrix parameters
-- **`CombinationsGenerator`** - Cartesian product computation for matrix expansion
+- **`CombinationsGenerator`** - Cartesian product computation for matrix
+  expansion
 - **`LiquidEngine`** - Custom Liquid engine with xpm-specific filters
-- **`LiquidPropertiesDrop`** / **`LiquidMatrixDrop`** - Liquid variable access with strict validation
+- **`LiquidPropertiesDrop`** / **`LiquidMatrixDrop`** - Liquid variable
+  access with strict validation
 
 #### Utilities
 
@@ -139,7 +149,8 @@ OutputError // File generation or output failures
 
 ### 1. Lazy Initialisation
 
-Classes use two-step initialisation (constructor + `initialise()` method) to defer expensive operations:
+Classes use two-step initialisation (constructor + `initialise()` method)
+to defer expensive operations:
 
 ```typescript
 class BuildConfigurations {
@@ -156,7 +167,8 @@ class BuildConfigurations {
 
 ### 2. Template Inheritance
 
-Build configurations support multiple inheritance with circular reference detection:
+Build configurations support multiple inheritance with circular reference
+detection:
 
 ```typescript
 {
@@ -231,7 +243,8 @@ BuildConfiguration._substitutionsVariables
 ### Naming
 
 - **Classes:** PascalCase (`BuildConfiguration`)
-- **Interfaces:** PascalCase with descriptive suffixes (`BuildConfigurationConstructorParameters`)
+- **Interfaces:** PascalCase with descriptive suffixes
+  (`BuildConfigurationConstructorParameters`)
 - **Functions:** camelCase (`hasLiquidSyntax`)
 - **Constants:** SCREAMING_SNAKE_CASE or descriptive names
 - **Protected/Private:** Prefix with underscore (`_isInitialised`)
@@ -270,7 +283,8 @@ BuildConfiguration._substitutionsVariables
 - Split at: >1,000 lines
 - Extract: Complex subsystems into separate files
 
-See [CODE-REVIEW.md](./CODE-REVIEW.md) for detailed analysis and refactoring recommendations.
+See [CODE-REVIEW.md](./CODE-REVIEW.md) for detailed analysis and
+refactoring recommendations.
 
 ## Development Workflow
 
