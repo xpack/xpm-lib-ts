@@ -532,7 +532,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
     const propertiesDefinitions: xpm.InitTemplatePropertiesDefinitions =
       42 as unknown as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -553,7 +553,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
     const propertiesDefinitions: xpm.InitTemplatePropertiesDefinitions =
       {} as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -575,7 +575,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       stringProp: {} as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -599,7 +599,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -623,7 +623,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -647,7 +647,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -672,7 +672,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -697,7 +697,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -723,7 +723,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -748,7 +748,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -774,7 +774,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -801,7 +801,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -828,7 +828,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -857,7 +857,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -889,7 +889,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -921,7 +921,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -951,7 +951,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -982,7 +982,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1013,7 +1013,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1044,7 +1044,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1071,7 +1071,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1098,7 +1098,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1125,7 +1125,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1152,7 +1152,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,
@@ -1178,7 +1178,7 @@ t.test('InitTemplateBase - _validatePropertiesDefinitions()', (t): void => {
       } as xpm.InitTemplatePropertiesDefinition,
     } as xpm.InitTemplatePropertiesDefinitions
 
-    const template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions,

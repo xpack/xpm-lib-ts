@@ -11,8 +11,6 @@
 
 // ----------------------------------------------------------------------------
 
-import { fileURLToPath } from 'node:url'
-import * as path from 'node:path'
 import { AssertionError } from 'node:assert'
 
 // ----------------------------------------------------------------------------
@@ -28,9 +26,6 @@ import * as xpm from '../../../../src/index.js'
 import { policies, legacyPolicies } from '../../../helpers/policies.js'
 
 // ============================================================================
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
 
 const mockProcess: NodeJS.Process = {
   env: {},
@@ -57,14 +52,9 @@ const propertiesDefinitions: xpm.InitTemplatePropertiesDefinitions = {
   },
 }
 
-class XpmInitTemplate extends xpm.InitTemplateBase {
-  async generate(): Promise<void> {}
-}
-
 // ----------------------------------------------------------------------------
 
 t.test('InitTemplateBase - constructor assertions', (t): void => {
-  let template
 
   class XpmInitTemplate extends xpm.InitTemplateBase {
     async generate(): Promise<void> {
@@ -73,7 +63,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: undefined as unknown as xpm.Context,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions: {},
@@ -86,7 +76,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: {} as xpm.Context,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions: {},
@@ -99,7 +89,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: { log: new Logger({ level: 'info' }) } as xpm.Context,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions: {},
@@ -112,7 +102,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: {
         log: new Logger({ level: 'info' }),
         config: { cwd: process.cwd() },
@@ -132,7 +122,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: {
         log: new Logger({ level: 'info' }),
         config: {
@@ -155,7 +145,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: {
         log: new Logger({ level: 'info' }),
         config: {
@@ -177,7 +167,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: undefined as unknown as string,
       propertiesDefinitions: {},
@@ -194,7 +184,7 @@ t.test('InitTemplateBase - constructor assertions', (t): void => {
   }
 
   try {
-    template = new XpmInitTemplate({
+    new XpmInitTemplate({
       context: mockContext,
       templatesFolderPath: '/my/templates',
       propertiesDefinitions:

@@ -14,12 +14,10 @@
 // import * as os from 'node:os'
 // import { fileURLToPath } from 'node:url'
 // import * as path from 'node:path'
-import { AssertionError } from 'node:assert'
 
 // https://www.npmjs.com/package/tap
 import t from 'tap'
 
-import { Logger } from '@xpack/logger'
 
 // ----------------------------------------------------------------------------
 

@@ -485,7 +485,7 @@ await t.test(
           'buildConfigurationsNames.get("native-gcc15-dependencies")'
         )
 
-        const isInitialised = await buildConfiguration.initialise()
+        await buildConfiguration.initialise()
         const devDepGcc = buildConfiguration.devDependencies
         t.equal(
           (devDepGcc['@xpack-dev-tools/gcc'] as xpm.JsonDependencyExtended)

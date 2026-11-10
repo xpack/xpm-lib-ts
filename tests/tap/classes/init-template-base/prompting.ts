@@ -11,8 +11,6 @@
 
 // ----------------------------------------------------------------------------
 
-import { fileURLToPath } from 'node:url'
-import * as path from 'node:path'
 import { Readable, Writable } from 'node:stream'
 
 // ----------------------------------------------------------------------------
@@ -68,9 +66,9 @@ class MockStdout extends Writable {
   isTTY = true
   output: string[] = []
 
-  _write(
+  override _write(
     chunk: any,
-    encoding: string,
+    _encoding: string,
     callback: (error?: Error | null) => void
   ): void {
     const str = chunk.toString()
@@ -93,7 +91,7 @@ class MockStdin extends Readable {
     this.inputs = inputs
   }
 
-  _read(): void {
+  override _read(): void {
     if (this.index < this.inputs.length) {
       // Use setImmediate to simulate async reading
       setImmediate(() => {
@@ -115,7 +113,7 @@ await t.test(
     class MockStdin extends Readable {
       isTTY = false
 
-      _read(): void {
+      override _read(): void {
         this.push(null) // Signal end of stream
       }
     }

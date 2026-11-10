@@ -21,7 +21,6 @@ import { fileURLToPath } from 'node:url'
 // https://www.npmjs.com/package/tap
 import t from 'tap'
 
-import { Logger } from '@xpack/logger'
 
 // ----------------------------------------------------------------------------
 

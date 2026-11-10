@@ -23,7 +23,6 @@ import { Logger } from '@xpack/logger'
 // ----------------------------------------------------------------------------
 
 import * as xpm from '../../../src/index.js'
-import { log, testIdempotentInitialisation } from '../../helpers/index.js'
 import { JsonDependencyExtended } from '../../../src/index.js'
 
 // ============================================================================
