@@ -117,25 +117,6 @@
     "prepublishOnly": "npm run lint && npm run test",
     "postpublish": "git push origin --follow-tags"
   },
-  "_topConfig": {
-    "descriptiveName": "xpm Core Library",
-    "githubActionsNodeVersions": [
-      "20",
-      "22",
-      "24"
-    ],
-    "githubActionsOses": [
-      "ubuntu-24.04",
-      "ubuntu-24.04-arm",
-      "macos-15-intel",
-      "macos-15",
-      "windows-2025"
-    ],
-    "testCoverage": "true",
-    "useEslint": "true",
-    "usePrettier": "true",
-    "hasWebsite": "true"
-  },
   "engines": {
     "node": ">=22.0"
   }
