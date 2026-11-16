@@ -90,12 +90,12 @@ Called by the Liquid engine when a property is accessed that doesn't exist as a 
 
 Resolution process:
 
-<ol> <li>Validate the property exists, throw <code>InputError</code> if not.</li> <li>Retrieve the property value (string, array, or object).</li> <li>If object, return as-is for Liquid to access nested properties.</li> <li>If array, join elements into a single string for processing.</li> <li>If the value contains Liquid syntax, recursively render it with the current context to resolve nested references.</li> <li>Return the final resolved value.</li> </ol>
+<ol> <li>Validate the property exists, throw <code>InputError</code> if not.</li> <li>Retrieve the property value (string, array, or object).</li> <li>If object, return as-is for Liquid to access nested properties.</li> <li>If array, join elements into a single string for processing.</li> <li>If the value contains Liquid syntax, recursively render it with the  current context to resolve nested references.</li> <li>Return the final resolved value.</li> </ol>
 
 Array values are concatenated without separators, allowing properties to span multiple lines in JSON while producing a single string output.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

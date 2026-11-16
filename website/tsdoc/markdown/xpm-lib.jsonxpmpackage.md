@@ -19,7 +19,7 @@ Combines standard npm `package.json` properties with xpm-specific extensions via
 
 An <b>xpm</b> package can be:
 
-<ul> <li><b>A source package:</b> Provides reusable code or resources for other packages. It contains code, build configurations, and actions.</li> <li><b>A binary package:</b> Distributes pre-built binaries for multiple platforms with automated installation.</li> </ul>
+<ul> <li><b>A source package:</b> Provides reusable code or resources for other  packages. It contains code, build configurations,  and actions.</li> <li><b>A binary package:</b> Distributes pre-built binaries for multiple  platforms with automated installation.</li> </ul>
 
 The presence of the `xpack` section enables <b>xpm</b>-specific features like template-based build configurations, matrix expansion, property substitution, and platform-specific binary distribution. Standard npm fields (name, version, etc.) are used for package identification.
 

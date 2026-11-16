@@ -18,7 +18,7 @@ Contains the entire `package.json` content, allowing templates to access package
 
 Common template patterns:
 
-<ul> <li><code>{<!-- -->{ package.name }<!-- -->}</code>: Package name for generated files.</li> <li><code>{<!-- -->{ package.version }<!-- -->}</code>: Version string for documentation.</li> <li><code>{<!-- -->{ package.xpack.properties.key }<!-- -->}</code>: Access xpack properties.</li> </ul>
+<ul> <li><code>{<!-- -->{ package.name }<!-- -->}</code>: Package name for generated  files.</li> <li><code>{<!-- -->{ package.version }<!-- -->}</code>: Version string for  documentation.</li> <li><code>{<!-- -->{ package.xpack.properties.key }<!-- -->}</code>: Access xpack  properties.</li> </ul>
 
 Undefined when processing templates outside of a package context.
 

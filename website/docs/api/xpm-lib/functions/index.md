@@ -32,7 +32,7 @@ Recursively changes file permissions within a folder tree.
 
 </td><td>
 
-Replaces non-alphanumeric characters with dashes to make paths comply with file system names.
+Replaces non-alphanumeric characters with dashes to make paths
 
 </td></tr>
 <tr><td>
@@ -41,7 +41,7 @@ Replaces non-alphanumeric characters with dashes to make paths comply with file 
 
 </td><td>
 
-Replaces non-alphanumeric characters with dashes to make paths comply with POSIX file system names.
+Replaces non-alphanumeric characters with dashes to make paths
 
 </td></tr>
 <tr><td>
@@ -50,7 +50,7 @@ Replaces non-alphanumeric characters with dashes to make paths comply with POSIX
 
 </td><td>
 
-Replaces non-alphanumeric characters with dashes to make paths comply with Windows file system names.
+Replaces non-alphanumeric characters with dashes to make paths
 
 </td></tr>
 <tr><td>
@@ -172,6 +172,6 @@ Validates and processes a matrix object for template expansion.
 </td></tr>
 </tbody></table><hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

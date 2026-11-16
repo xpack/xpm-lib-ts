@@ -64,11 +64,11 @@ This method implements lazy evaluation to avoid unnecessary operations. Build co
 
 Retrieval process:
 
-<ol> <li>Check if the configuration already exists in the internal map.</li> <li>If found and already instantiated, return the existing instance.</li> <li>If the configuration name is unknown (not in JSON name mapping), throw <code>InputError</code>.</li> <li>For known but not yet instantiated configurations: <ul> <li>Resolve the original JSON configuration name (handles both regular and template-generated configurations).</li> <li>Retrieve the JSON configuration definition.</li> <li>Create a new <code>BuildConfiguration</code> instance.</li> <li>Store the instance in the map for future access.</li> </ul> </li> <li>Return the configuration instance (still uninitialised).</li> </ol>
+<ol> <li>Check if the configuration already exists in the internal map.</li> <li>If found and already instantiated, return the existing instance.</li> <li>If the configuration name is unknown (not in JSON name mapping),  throw <code>InputError</code>.</li> <li>For known but not yet instantiated configurations:  <ul>  <li>Resolve the original JSON configuration name (handles both  regular and template-generated configurations).</li>  <li>Retrieve the JSON configuration definition.</li>  <li>Create a new <code>BuildConfiguration</code> instance.</li>  <li>Store the instance in the map for future access.</li>  </ul> </li> <li>Return the configuration instance (still uninitialised).</li> </ol>
 
 The two-step lazy evaluation process:
 
-<ol> <li>During collection initialisation (<code>BuildConfigurations.initialise()</code>), only the matrix of options is evaluated for each template, expanding configuration names without processing their content.</li> <li>Later, when a configuration is accessed via this method and subsequently initialised (<code>BuildConfiguration.initialise()</code>), the template is fully evaluated and Liquid substitutions are performed on all properties.</li> </ol>
+<ol> <li>During collection initialisation  (<code>BuildConfigurations.initialise()</code>), only the  matrix of options is evaluated for each template, expanding  configuration names without processing their content.</li> <li>Later, when a configuration is accessed via this method and  subsequently initialised  (<code>BuildConfiguration.initialise()</code>), the template  is fully evaluated and Liquid substitutions are performed on  all properties.</li> </ol>
 
 This approach ensures that only build configurations that are actually used incur the cost of template evaluation and variable substitution.
 

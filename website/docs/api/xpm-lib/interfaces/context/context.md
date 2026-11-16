@@ -28,11 +28,11 @@ The context object serves as the central coordination point for all <b>xpm</b> o
 
 Context flow:
 
-<ol> <li>Created at the start of each <b>xpm</b> command execution.</li> <li>Initialized with logger instance and configuration options.</li> <li>Passed to all library functions and classes that perform <b>xpm</b> operations.</li> <li>Extended with additional properties as needed by specific operations (e.g., package paths, temporary directories, cache state).</li> </ol>
+<ol> <li>Created at the start of each <b>xpm</b> command execution.</li> <li>Initialized with logger instance and configuration options.</li> <li>Passed to all library functions and classes that perform <b>xpm</b>  operations.</li> <li>Extended with additional properties as needed by specific operations  (e.g., package paths, temporary directories, cache state).</li> </ol>
 
 Core responsibilities:
 
-<ul> <li><b>Logging:</b> Provides consistent output and diagnostics through the logger instance, enabling verbosity control and structured output.</li> <li><b>Configuration:</b> Makes operational flags and user preferences accessible to all components.</li> <li><b>State sharing:</b> The extensible design allows operations to attach computed values or state that should be available to subsequent operations within the same execution.</li> </ul>
+<ul> <li><b>Logging:</b> Provides consistent output and diagnostics  through the logger  instance, enabling verbosity control and structured output.</li> <li><b>Configuration:</b> Makes operational flags and user preferences  accessible to all components.</li> <li><b>State sharing:</b> The extensible design allows operations to attach  computed values or state that should be available to subsequent  operations within the same execution.</li> </ul>
 
 The context pattern enables dependency injection, making the code more testable and allowing operations to access shared resources without global state.
 
@@ -120,6 +120,6 @@ The absolute path to the module folder.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

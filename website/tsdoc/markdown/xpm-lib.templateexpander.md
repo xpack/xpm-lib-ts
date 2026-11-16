@@ -18,7 +18,7 @@ This class provides shared functionality for expanding template names and creati
 
 Template expansion process:
 
-<ol> <li><b>Matrix processing:</b> Validates matrix structure and performs Liquid substitutions on matrix values.</li> <li><b>Combination generation:</b> Computes the Cartesian product of all matrix parameter values.</li> <li><b>Name expansion:</b> For each combination, substitutes matrix values into the template name.</li> <li><b>Instance creation:</b> Invokes the factory callback to create instances with expanded names and matrix parameters.</li> </ol>
+<ol> <li><b>Matrix processing:</b> Validates matrix structure and performs  Liquid substitutions on matrix values.</li> <li><b>Combination generation:</b> Computes the Cartesian product of all  matrix parameter values.</li> <li><b>Name expansion:</b> For each combination, substitutes matrix values  into the template name.</li> <li><b>Instance creation:</b> Invokes the factory callback to create  instances with expanded names and matrix parameters.</li> </ol>
 
 The class is generic to support different template and instance types whilst maintaining type safety throughout the expansion process.
 

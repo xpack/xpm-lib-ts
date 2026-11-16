@@ -20,7 +20,7 @@ The collection always exists, even as empty if no actions are defined.
 
 Action lifecycle phases:
 
-<ol> <li><b>Construction:</b> Basic setup with optional inheritance from parent package.</li> <li><b>Initialisation:</b> Template name expansion without content evaluation.</li> <li><b>Retrieval:</b> On-demand instantiation when accessed via <code>get()</code>.</li> <li><b>Action Initialisation:</b> Liquid template evaluation and substitution.</li> </ol>
+<ol> <li><b>Construction:</b> Basic setup with optional inheritance from parent  package.</li> <li><b>Initialisation:</b> Template name expansion without content  evaluation.</li> <li><b>Retrieval:</b> On-demand instantiation when accessed via  <code>get()</code>.</li> <li><b>Action Initialisation:</b> Liquid template evaluation and  substitution.</li> </ol>
 
 This multi-phase approach ensures efficient resource usage by deferring expensive operations until actions are actually needed.
 

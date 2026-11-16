@@ -28,12 +28,12 @@ This sealed object provides the base substitution context inherited by all actio
 
 Variable hierarchy:
 
-<ol> <li><b>Base variables (xpmLiquidSubstitutionsVariablesBase):</b> <ul> <li><code>env</code>: Environment variables from process.env</li> <li><code>os</code>: Platform detection (platform, arch, endianness, version)</li> <li><code>path</code>: Path utilities (sep, delimiter, cwd)</li> </ul> </li> <li><b>Package metadata:</b> <ul> <li><code>package</code>: Complete <code>package.json</code> content (name, version, dependencies, etc.)</li> </ul> </li> <li><b>User-defined properties:</b> <ul> <li><code>properties</code>: Merged from <code>xpack.properties</code> if present</li> </ul> </li> </ol>
+<ol> <li><b>Base variables (xpmLiquidSubstitutionsVariablesBase):</b>  <ul>  <li><code>env</code>: Environment variables from process.env</li>  <li><code>os</code>: Platform detection (platform, arch, endianness,  version)</li>  <li><code>path</code>: Path utilities (sep, delimiter, cwd)</li>  </ul> </li> <li><b>Package metadata:</b>  <ul>  <li><code>package</code>: Complete <code>package.json</code> content  (name, version,  dependencies, etc.)</li>  </ul> </li> <li><b>User-defined properties:</b>  <ul>  <li><code>properties</code>: Merged from  <code>xpack.properties</code> if present</li>  </ul> </li> </ol>
 
 The object is sealed after initialization to prevent accidental modification. Child components (actions and configurations) extend this context with their own scoped variables (configuration, matrix) without modifying the original sealed object.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

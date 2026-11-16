@@ -28,10 +28,10 @@ This LiquidEngine instance is configured with strict mode and custom filters for
 
 Engine characteristics:
 
-<ol> <li>Strict mode enabled to catch undefined variable references.</li> <li>Custom filters for platform detection (<code>isPlatform</code>, <code>isArch</code>).</li> <li>Custom filters for path sanitization (<code>filterPath</code>, <code>filterPosixPath</code>, <code>filterWin32Path</code>).</li> <li>Shared instance reduces memory overhead and ensures consistent template evaluation across all package components.</li> </ol>
+<ol> <li>Strict mode enabled to catch undefined variable references.</li> <li>Custom filters for platform detection (<code>isPlatform</code>,  <code>isArch</code>).</li> <li>Custom filters for path sanitization (<code>filterPath</code>,  <code>filterPosixPath</code>,  <code>filterWin32Path</code>).</li> <li>Shared instance reduces memory overhead and ensures consistent  template evaluation across all package components.</li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

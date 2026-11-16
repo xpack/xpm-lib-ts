@@ -28,7 +28,7 @@ This class loads and validates `package.json` content, determines package capabi
 
 The package abstraction provides a layer over `package.json` processing with progressive validation:
 
-<ol> <li><b>Basic file I/O:</b> Read and write <code>package.json</code> with error handling.</li> <li><b>npm validation:</b> Check for valid npm package structure (name, version).</li> <li><b>xpm validation:</b> Verify <code>xpack</code> section presence and structure.</li> <li><b>Binary package validation:</b> Validate binary-specific metadata (executables, binaries, platforms).</li> <li><b>Capability detection:</b> Determine package features (scripts, actions, build configurations).</li> <li><b>Version checking:</b> Validate minimum <b>xpm</b> version requirements.</li> <li><b>Specifier parsing:</b> Extract scope, name, and version from package identifiers.</li> </ol>
+<ol> <li><b>Basic file I/O:</b> Read and write <code>package.json</code> with  error handling.</li> <li><b>npm validation:</b> Check for valid npm package structure (name, version).</li> <li><b>xpm validation:</b> Verify <code>xpack</code> section presence  and structure.</li> <li><b>Binary package validation:</b> Validate binary-specific metadata  (executables, binaries, platforms).</li> <li><b>Capability detection:</b> Determine package features (scripts,  actions, build configurations).</li> <li><b>Version checking:</b> Validate minimum <b>xpm</b> version  requirements.</li> <li><b>Specifier parsing:</b> Extract scope, name, and version from package  identifiers.</li> </ol>
 
 This hierarchy allows validation to be performed incrementally as needed, avoiding unnecessary checks for packages that don't meet earlier criteria.
 
@@ -342,6 +342,6 @@ Writes the provided `package.json` content to disk.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

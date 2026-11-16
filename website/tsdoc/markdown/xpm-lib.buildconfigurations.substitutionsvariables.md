@@ -18,7 +18,7 @@ This comprehensive variable hierarchy provides the base context for all build co
 
 Base hierarchy includes:
 
-<ol> <li><b>Environment variables:</b> <code>env</code> namespace with system environment.</li> <li><b>Platform detection:</b> <code>os</code> namespace with platform-specific values.</li> <li><b>Path utilities:</b> <code>path</code> namespace with path manipulationfunctions.</li> <li><b>Package metadata:</b> <code>package</code> namespace with name, version, dependencies.</li> </ol>
+<ol> <li><b>Environment variables:</b> <code>env</code> namespace with system  environment.</li> <li><b>Platform detection:</b> <code>os</code> namespace with  platform-specific values.</li> <li><b>Path utilities:</b> <code>path</code> namespace with path  manipulationfunctions.</li> <li><b>Package metadata:</b> <code>package</code> namespace with  name, version, dependencies.</li> </ol>
 
 Individual configurations extend this with their own `properties`<!-- -->, `configuration`<!-- -->, and `matrix` namespaces during initialisation.
 

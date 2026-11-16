@@ -18,7 +18,7 @@ This reverse mapping enables retrieving the original action definition from `jso
 
 Mapping behavior:
 
-<ol> <li><b>For regular actions:</b> Maps action name to itself (identity mapping).</li> <li><b>For template actions:</b> Maps each generated action name back to the original template name (e.g., <code>test-x64</code> → <code>test-<!-- -->{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> <li>Enables <code>Actions.get()</code> to locate the correct JSON definition when instantiating an action on demand.</li> </ol>
+<ol> <li><b>For regular actions:</b> Maps action name to itself (identity  mapping).</li> <li><b>For template actions:</b> Maps each generated action name back to  the original template name (e.g.,  <code>test-x64</code> → <code>test-<!-- -->{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> <li>Enables <code>Actions.get()</code> to locate the correct JSON  definition when instantiating an action on demand.</li> </ol>
 
 This indirection is essential for the lazy evaluation pattern, allowing deferred instantiation while maintaining the connection to original definitions.
 

@@ -28,12 +28,12 @@ This object contains the complete `package.json` content, including both standar
 
 Required structure:
 
-<ol> <li>Standard npm fields: name, version, dependencies, devDependencies.</li> <li>Required <code>xpack</code> section containing xpm-specific configuration.</li> <li>Optional <code>xpack.properties</code> for user-defined substitution variables.</li> <li>Optional <code>xpack.actions</code> for package-level executable actions.</li> <li>Optional <code>xpack.buildConfigurations</code> for build configuration definitions.</li> </ol>
+<ol> <li>Standard npm fields: name, version, dependencies, devDependencies.</li> <li>Required <code>xpack</code> section containing xpm-specific  configuration.</li> <li>Optional <code>xpack.properties</code> for user-defined  substitution variables.</li> <li>Optional <code>xpack.actions</code> for package-level executable  actions.</li> <li>Optional <code>xpack.buildConfigurations</code> for build configuration  definitions.</li> </ol>
 
 The package definition is validated during construction, requiring the `xpack` section to be present and be a valid JSON object.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

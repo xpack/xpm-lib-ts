@@ -28,12 +28,12 @@ This constant provides the foundation for all Liquid template processing, captur
 
 Initialization strategy:
 
-<ol> <li><b>Environment variables:</b> Snapshot of process.env at load time.</li> <li><b>OS information:</b> OS specific definitions (platform, arch, etc.).</li> <li><b>Path constants:</b> Platform-specific separators and delimiters.</li> <li><b>Properties:</b> Placeholder for package-specific additions.</li> </ol>
+<ol> <li><b>Environment variables:</b> Snapshot of process.env at load time.</li> <li><b>OS information:</b> OS specific definitions (platform, arch,  etc.).</li> <li><b>Path constants:</b> Platform-specific separators and delimiters.</li> <li><b>Properties:</b> Placeholder for package-specific additions.</li> </ol>
 
 These base variables are shared across all template processing within the application and extended with package, configuration, and matrix variables as needed. The base object is typically spread into new contexts rather than mutated, preserving the original snapshot.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

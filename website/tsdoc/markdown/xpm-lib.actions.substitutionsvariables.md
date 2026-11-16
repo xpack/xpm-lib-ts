@@ -18,7 +18,7 @@ This comprehensive variable hierarchy provides context for template evaluation, 
 
 The hierarchy structure:
 
-<ol> <li><b>Base variables:</b> <code>env</code>, <code>os</code>, <code>path</code> (always available).</li> <li><b>Package variables:</b> <code>name</code>, <code>version</code>, <code>dependencies</code>, <code>devDependencies</code>.</li> <li><b>Configuration variables:</b> build folder paths, compiler settings.</li> <li><b>Properties:</b> custom key-value pairs from package or configuration.</li> <li><b>Matrix:</b> parameter combinations for template-generated actions (added per action during initialisation).</li> </ol>
+<ol> <li><b>Base variables:</b> <code>env</code>, <code>os</code>,  <code>path</code> (always available).</li> <li><b>Package variables:</b> <code>name</code>, <code>version</code>,  <code>dependencies</code>,  <code>devDependencies</code>.</li> <li><b>Configuration variables:</b> build folder paths, compiler  settings.</li> <li><b>Properties:</b> custom key-value pairs from package or  configuration.</li> <li><b>Matrix:</b> parameter combinations for template-generated  actions (added per action during initialisation).</li> </ol>
 
 These variables are accessible in Liquid templates using dot notation (e.g., `{{ package.name }}`<!-- -->, `{{ configuration.buildFolderRelativePath }}`<!-- -->).
 

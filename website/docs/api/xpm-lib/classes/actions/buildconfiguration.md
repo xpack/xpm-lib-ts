@@ -28,14 +28,14 @@ This optional reference establishes the hierarchical relationship between action
 
 When defined:
 
-<ol> <li>Actions inherit configuration-specific variables (build folder paths, compiler settings, toolchain properties).</li> <li>Actions belong to a specific configuration namespace rather than the package root.</li> <li>Logging and diagnostics include the configuration name for context.</li> </ol>
+<ol> <li>Actions inherit configuration-specific variables (build folder paths,  compiler settings, toolchain properties).</li> <li>Actions belong to a specific configuration namespace rather than the  package root.</li> <li>Logging and diagnostics include the configuration name for  context.</li> </ol>
 
 When `undefined`<!-- -->:
 
-<ol> <li>Actions belong to the package root (<code>xpack.actions</code> in <code>package.json</code>).</li> <li>Only package-level and global variables are available for substitution.</li> </ol>
+<ol> <li>Actions belong to the package root (<code>xpack.actions</code> in  <code>package.json</code>).</li> <li>Only package-level and global variables are available for  substitution.</li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

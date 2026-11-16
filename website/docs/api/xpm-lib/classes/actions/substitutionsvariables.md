@@ -28,12 +28,12 @@ This comprehensive variable hierarchy provides context for template evaluation, 
 
 The hierarchy structure:
 
-<ol> <li><b>Base variables:</b> <code>env</code>, <code>os</code>, <code>path</code> (always available).</li> <li><b>Package variables:</b> <code>name</code>, <code>version</code>, <code>dependencies</code>, <code>devDependencies</code>.</li> <li><b>Configuration variables:</b> build folder paths, compiler settings.</li> <li><b>Properties:</b> custom key-value pairs from package or configuration.</li> <li><b>Matrix:</b> parameter combinations for template-generated actions (added per action during initialisation).</li> </ol>
+<ol> <li><b>Base variables:</b> <code>env</code>, <code>os</code>,  <code>path</code> (always available).</li> <li><b>Package variables:</b> <code>name</code>, <code>version</code>,  <code>dependencies</code>,  <code>devDependencies</code>.</li> <li><b>Configuration variables:</b> build folder paths, compiler  settings.</li> <li><b>Properties:</b> custom key-value pairs from package or  configuration.</li> <li><b>Matrix:</b> parameter combinations for template-generated  actions (added per action during initialisation).</li> </ol>
 
 These variables are accessible in Liquid templates using dot notation (e.g., `{{ package.name }}`<!-- -->, `{{ configuration.buildFolderRelativePath }}`<!-- -->).
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -29,7 +29,7 @@ This class extends the Liquid engine and registers custom filters for path manip
 
 The engine is configured with strict parsing options to catch template errors early during development. Custom filters are organized into categories:
 
-<ol> <li><b>Path manipulation:</b> Platform-specific and cross-platform path operations (<code>basename</code>, <code>dirname</code>, <code>join</code>, <code>relative</code>, <code>normalize</code>) for default, POSIX, and Win32 paths.</li> <li><b>String formatting:</b> Utilities for printf-style formatting and filename sanitization.</li> <li><b>Array/string conversion:</b> Filters for joining and splitting lines.</li> <li><b>Object introspection:</b> Filters for extracting object keys.</li> </ol>
+<ol> <li><b>Path manipulation:</b> Platform-specific and cross-platform path  operations  (<code>basename</code>, <code>dirname</code>, <code>join</code>,  <code>relative</code>, <code>normalize</code>) for default, POSIX, and  Win32 paths.</li> <li><b>String formatting:</b> Utilities for printf-style formatting and  filename  sanitization.</li> <li><b>Array/string conversion:</b> Filters for joining and splitting  lines.</li> <li><b>Object introspection:</b> Filters for extracting object keys.</li> </ol>
 
 These filters enable templates to perform complex path manipulations and string transformations without requiring external dependencies or custom template tags.
 
@@ -69,6 +69,6 @@ Constructs a Liquid engine instance with xpm-specific settings and filters.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

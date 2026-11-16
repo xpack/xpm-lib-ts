@@ -83,14 +83,14 @@ The constructor configures strict parsing options and registers filters for path
 
 Configuration options:
 
-<ul> <li><b>strictFilters:</b> Throw errors for undefined filters rather than silently ignoring them.</li> <li><b>strictVariables:</b> Throw errors for undefined variables rather than rendering empty strings.</li> <li><b>trimTagLeft/Right:</b> Preserve whitespace around template tags.</li> <li><b>trimOutputLeft/Right:</b> Preserve whitespace around output expressions.</li> <li><b>greedy:</b> Use non-greedy matching for better template compatibility.</li> <li><b>lenientIf:</b> Allow flexible truthiness in conditional expressions.</li> </ul>
+<ul> <li><b>strictFilters:</b> Throw errors for undefined filters rather than  silently ignoring them.</li> <li><b>strictVariables:</b> Throw errors for undefined variables rather  than  rendering empty strings.</li> <li><b>trimTagLeft/Right:</b> Preserve whitespace around template  tags.</li> <li><b>trimOutputLeft/Right:</b> Preserve whitespace around output expressions.</li> <li><b>greedy:</b> Use non-greedy matching for better template  compatibility.</li> <li><b>lenientIf:</b> Allow flexible truthiness in conditional  expressions.</li> </ul>
 
 Filter registration:
 
-<ul> <li><b>Platform-aware path filters (default, posix, win32):</b> delegate to Node.js path module for consistent cross-platform behavior.</li> <li><b>Custom filters (to\_filename, join\_lines, split\_lines, keys):</b> provide template-specific functionality not available in standard Liquid.</li> <li>All filters are registered during construction for immediate availability in templates.</li> </ul>
+<ul> <li><b>Platform-aware path filters (default, posix, win32):</b> delegate to  Node.js path module for consistent cross-platform behavior.</li> <li><b>Custom filters (to\_filename, join\_lines, split\_lines, keys):</b>  provide  template-specific functionality not available in standard Liquid.</li> <li>All filters are registered during construction for immediate  availability in templates.</li> </ul>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

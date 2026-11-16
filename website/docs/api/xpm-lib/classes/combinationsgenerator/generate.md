@@ -31,7 +31,7 @@ This method yields combinations one at a time instead of building the entire arr
 
 Memory efficiency:
 
-<ul> <li>For a matrix with 10 parameters and 5 values each (9,765,625 combinations), only one combination object exists in memory at a time, regardless of matrix size.</li> <li>No array allocation or storage required.</li> <li>Immediate processing of each combination without waiting for all to be generated.</li> </ul>
+<ul> <li>For a matrix with 10 parameters and 5 values each (9,765,625  combinations), only one combination object exists in memory at a  time, regardless of matrix size.</li> <li>No array allocation or storage required.</li> <li>Immediate processing of each combination without waiting for all to  be generated.</li> </ul>
 
 Example usage:
 
@@ -45,6 +45,6 @@ for (const combo of generator.generate()) {
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

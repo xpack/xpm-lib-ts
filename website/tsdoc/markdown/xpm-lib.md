@@ -16,7 +16,7 @@ The main functionality is to manage actions and build configurations, especially
 
 Actions ([Actions](./xpm-lib.actions.md)<!-- -->) and build configurations ([BuildConfigurations](./xpm-lib.buildconfigurations.md)<!-- -->) implement a two-step lazy evaluation process to avoid unnecessary operations:
 
-<ol> <li><b>Name Expansion:</b> During collection initialisation, only the matrix of options is evaluated for each template, expanding template names into concrete action or configuration names without processing their content.</li> <li><b>Content Evaluation:</b> Later, when an action or build configuration is actually accessed and initialised (via <code>Action.initialise()</code> or <code>BuildConfiguration.initialise()</code>), the template is fully evaluated and Liquid substitutions are performed.</li> </ol>
+<ol> <li><b>Name Expansion:</b> During collection initialisation, only  the matrix of  options is evaluated for each template, expanding template names into  concrete action or configuration names without processing their content.</li> <li><b>Content Evaluation:</b> Later, when an action or build  configuration is actually accessed and initialised (via  <code>Action.initialise()</code>  or <code>BuildConfiguration.initialise()</code>), the template  is fully  evaluated and Liquid substitutions are performed.</li> </ol>
 
 This approach ensures that only items that are actually used incur the cost of template evaluation and variable substitution, significantly improving performance for projects with many actions or configurations.
 

@@ -22,7 +22,7 @@ Configuration lifecycle:
 
 Key configuration patterns:
 
-<ul> <li><b>Force mode (<code>doForce: true</code>):</b> Bypasses safety checks like "already installed" or "files exist". Use with caution as it can overwrite data.</li> <li><b>Dry run (<code>isDryRun: true</code>):</b> Simulates operations without making changes, useful for testing or previewing actions.</li> </ul>
+<ul> <li><b>Force mode (<code>doForce: true</code>):</b> Bypasses safety checks  like "already  installed" or "files exist". Use with caution as it can overwrite  data.</li> <li><b>Dry run (<code>isDryRun: true</code>):</b> Simulates operations  without making changes,  useful for testing or previewing actions.</li> </ul>
 
 The extensible design (additional properties allowed) supports future configuration options without breaking changes.
 

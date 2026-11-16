@@ -34,7 +34,7 @@ Provides platform detection and system information for cross-platform template l
 
 Key properties for cross-platform templates:
 
-<ul> <li><code>os.platform</code>: Detect OS ('darwin', 'linux', 'win32').</li> <li><code>os.arch</code>: Detect CPU architecture ('x64', 'arm64', etc.).</li> <li><code>os.EOL</code>: Use correct line endings for generated files.</li> <li><code>os.homedir</code>: Reference user's home folder portably.</li> </ul>
+<ul> <li><code>os.platform</code>: Detect OS ('darwin', 'linux', 'win32').</li> <li><code>os.arch</code>: Detect CPU architecture ('x64', 'arm64',  etc.).</li> <li><code>os.EOL</code>: Use correct line endings for generated files.</li> <li><code>os.homedir</code>: Reference user's home folder portably.</li> </ul>
 
 See [Node.js os module documentation](https://nodejs.org/dist/latest-v16.x/docs/api/os.html)
 

@@ -89,10 +89,10 @@ This helper method is called during collection initialisation for each build con
 
 Processing steps:
 
-<ol> <li>Calls <code>\_expandTemplateBuildConfigurations()</code> to generate all configuration instances from the template's matrix parameters.</li> <li>Validates that each expanded configuration name is unique and does not conflict with existing configurations.</li> <li>Registers each expanded configuration in the internal maps: <ul> <li><code>\_buildConfigurationsMap</code>: Maps name to configuration instance.</li> <li><code>\_jsonBuildConfigurationsNamesMap</code>: Maps expanded name back to original template name.</li> <li><code>\_namesSet</code>: Tracks all registered names for duplicate detection.</li> </ul> </li> </ol>
+<ol> <li>Calls <code>\_expandTemplateBuildConfigurations()</code> to generate  all configuration instances from the template's matrix parameters.</li> <li>Validates that each expanded configuration name is unique and does  not conflict with existing configurations.</li> <li>Registers each expanded configuration in the internal maps:  <ul>  <li><code>\_buildConfigurationsMap</code>: Maps name to configuration  instance.</li>  <li><code>\_jsonBuildConfigurationsNamesMap</code>: Maps expanded name  back to original template name.</li>  <li><code>\_namesSet</code>: Tracks all registered  names for duplicate detection.</li>  </ul> </li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

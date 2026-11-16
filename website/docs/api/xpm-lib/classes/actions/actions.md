@@ -30,7 +30,7 @@ The collection always exists, even as empty if no actions are defined.
 
 Action lifecycle phases:
 
-<ol> <li><b>Construction:</b> Basic setup with optional inheritance from parent package.</li> <li><b>Initialisation:</b> Template name expansion without content evaluation.</li> <li><b>Retrieval:</b> On-demand instantiation when accessed via <code>get()</code>.</li> <li><b>Action Initialisation:</b> Liquid template evaluation and substitution.</li> </ol>
+<ol> <li><b>Construction:</b> Basic setup with optional inheritance from parent  package.</li> <li><b>Initialisation:</b> Template name expansion without content  evaluation.</li> <li><b>Retrieval:</b> On-demand instantiation when accessed via  <code>get()</code>.</li> <li><b>Action Initialisation:</b> Liquid template evaluation and  substitution.</li> </ol>
 
 This multi-phase approach ensures efficient resource usage by deferring expensive operations until actions are actually needed.
 
@@ -468,6 +468,6 @@ Completes the async initialisation of the actions collection.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

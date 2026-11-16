@@ -37,12 +37,12 @@ This method is invoked during initialisation for regular (non-template) configur
 
 Processing steps:
 
-<ol> <li>Extract the <code>inherits</code> (or deprecated <code>inherit</code>) field from the configuration.</li> <li>Stringify the inherits field and check for template syntax (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>).</li> <li>If templates are found: <ul> <li>Perform Liquid substitutions with current variable context.</li> <li>Parse the substituted JSON string back into an object.</li> <li>Return a new configuration object with the substituted inherits field and all other fields unchanged.</li> </ul> </li> <li>If no templates are found, return the original configuration as-is.</li> </ol>
+<ol> <li>Extract the <code>inherits</code> (or deprecated  <code>inherit</code>) field from the  configuration.</li> <li>Stringify the inherits field and check for template syntax  (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>).</li> <li>If templates are found:  <ul>  <li>Perform Liquid substitutions with current variable context.</li>  <li>Parse the substituted JSON string back into an object.</li>  <li>Return a new configuration object with the substituted inherits  field and all other fields unchanged.</li>  </ul> </li> <li>If no templates are found, return the original configuration  as-is.</li> </ol>
 
 This selective approach is more efficient than full JSON substitution for regular configurations that do not have matrix parameters. The remaining fields (properties, dependencies, actions) are processed during inheritance resolution and dependency substitution phases.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

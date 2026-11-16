@@ -26,12 +26,12 @@ readonly jsonBuildConfigurations: JsonBuildConfigurations;
 
 This object holds raw build configuration definitions from the `package.json` `xpack.buildConfigurations` section. Configurations can be:
 
-<ol> <li><b>Regular configurations:</b> Direct objects with properties, dependencies, actions, and inheritance.</li> <li><b>Template configurations:</b> Objects with <code>matrix</code> and <code>template</code> properties for generating multiple configurations from a single definition.</li> </ol>
+<ol> <li><b>Regular configurations:</b> Direct objects with properties,  dependencies, actions, and inheritance.</li> <li><b>Template configurations:</b> Objects with <code>matrix</code>  and <code>template</code>  properties for generating multiple configurations from a single  definition.</li> </ol>
 
 Template configuration names (containing `{{` markers) trigger matrix expansion during initialisation, creating concrete configurations from the Cartesian product of matrix parameter values. Each configuration can inherit from others, creating complex dependency hierarchies.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

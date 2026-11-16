@@ -37,12 +37,12 @@ This method is invoked during initialisation for template-generated configuratio
 
 Processing steps:
 
-<ol> <li>Stringify the entire JSON build configuration object.</li> <li>Check if the stringified JSON contains template syntax (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>).</li> <li>If templates are found: <ul> <li>Perform Liquid substitutions with complete variable context including matrix parameters.</li> <li>Parse the substituted JSON string back into an object.</li> </ul> </li> <li>If no templates are found, return the original configuration as-is.</li> </ol>
+<ol> <li>Stringify the entire JSON build configuration object.</li> <li>Check if the stringified JSON contains template syntax  (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>).</li> <li>If templates are found:  <ul>  <li>Perform Liquid substitutions with complete variable context  including matrix parameters.</li>  <li>Parse the substituted JSON string back into an object.</li>  </ul> </li> <li>If no templates are found, return the original configuration  as-is.</li> </ol>
 
 This comprehensive substitution approach ensures matrix parameters can be referenced anywhere within the configuration (properties, dependencies, actions, etc.), which is necessary for template-generated configurations but would be unnecessarily expensive for regular configurations.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

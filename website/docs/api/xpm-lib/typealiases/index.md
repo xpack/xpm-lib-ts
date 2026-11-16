@@ -32,7 +32,7 @@ Represents a list of action command strings.
 
 </td><td>
 
-Represents the available items for a `select` type property in `xpm init` templates.
+Represents the available items for a `select` type property in `xpm init`
 
 </td></tr>
 <tr><td>
@@ -59,7 +59,7 @@ Represents a map of `xpm init` template property definitions.
 
 </td><td>
 
-Represents the supported property types for `xpm init` template properties.
+Represents the supported property types for `xpm init` template
 
 </td></tr>
 <tr><td>
@@ -176,7 +176,7 @@ Represents a JSON map of npm scripts.
 
 </td><td>
 
-Represents a matrix of parameters for template expansion.
+Represents a matrix of parameters for template
 
 </td></tr>
 <tr><td>
@@ -217,6 +217,6 @@ A matrix combination mapping parameter names to their values.
 </td></tr>
 </tbody></table><hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

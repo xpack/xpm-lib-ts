@@ -18,5 +18,5 @@ This array specifies the inheritance chain for this configuration, processed seq
 
 Inheritance processing:
 
-<ol> <li>Populated from <code>inherits</code> or deprecated <code>inherit</code> field during initialisation.</li> <li>Supports both string (single parent) and array (multiple parents) formats.</li> <li>Each inherited configuration is initialised recursively before merging its properties, dependencies, and actions.</li> <li>Circular references are detected and rejected with <code>InputError</code>.</li> <li>Later inherited configurations override properties from earlier ones, and local properties override all inherited ones.</li> </ol>
+<ol> <li>Populated from <code>inherits</code> or deprecated  <code>inherit</code> field during  initialisation.</li> <li>Supports both string (single parent) and array (multiple parents)  formats.</li> <li>Each inherited configuration is initialised recursively before  merging its properties, dependencies, and actions.</li> <li>Circular references are detected and rejected with  <code>InputError</code>.</li> <li>Later inherited configurations override properties from earlier  ones, and local properties override all inherited ones.</li> </ol>
 

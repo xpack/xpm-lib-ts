@@ -18,7 +18,7 @@ This reverse mapping enables retrieving the original configuration definition fr
 
 Mapping behavior:
 
-<ol> <li><b>For regular configurations:</b> Maps configuration name to itself (identity mapping).</li> <li><b>For template configurations:</b> Maps each generated configuration name back to the original template name (e.g., <code>release-x64</code> → <code>release-<!-- -->{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> <li>Known only after <code>BuildConfigurations.initialise()</code> completes.</li> <li>Enables <code>BuildConfigurations.get()</code> to locate the correct JSON definition when instantiating a configuration on demand.</li> </ol>
+<ol> <li><b>For regular configurations:</b> Maps configuration name to itself  (identity mapping).</li> <li><b>For template configurations:</b> Maps each generated configuration  name  back to the original template name (e.g., <code>release-x64</code> →  <code>release-<!-- -->{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> <li>Known only after <code>BuildConfigurations.initialise()</code>  completes.</li> <li>Enables <code>BuildConfigurations.get()</code> to locate the  correct JSON definition when instantiating a configuration on  demand.</li> </ol>
 
 This indirection is essential for lazy evaluation, allowing deferred instantiation while maintaining the connection to original definitions.
 

@@ -70,7 +70,7 @@ This utility function detects the presence of Liquid template markers in a strin
 
 Liquid syntax patterns detected:
 
-<ol> <li><b>Variable output:</b> <code>{<!-- -->{</code> marks the start of a variable interpolation (e.g., <code>{<!-- -->{ package.name }<!-- -->}</code>).</li> <li><b>Control flow:</b> <code>{<!-- -->%</code> marks the start of a tag for logic or iteration (e.g., <code>{<!-- -->% if condition %<!-- -->}</code>, <code>{<!-- -->% for item in array %<!-- -->}</code>).</li> </ol>
+<ol> <li><b>Variable output:</b> <code>{<!-- -->{</code> marks the start of a variable  interpolation (e.g., <code>{<!-- -->{ package.name }<!-- -->}</code>).</li> <li><b>Control flow:</b> <code>{<!-- -->%</code> marks the start of a tag  for logic or iteration (e.g., <code>{<!-- -->% if condition %<!-- -->}</code>,  <code>{<!-- -->% for item in array %<!-- -->}</code>).</li> </ol>
 
 The function uses a regular expression to efficiently scan the string for these markers without needing to check for both patterns separately. This is more efficient than calling <code>includes()</code> twice and provides a single point of maintenance for Liquid syntax detection logic.
 
@@ -80,6 +80,6 @@ Common usage:
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

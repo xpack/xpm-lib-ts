@@ -28,12 +28,12 @@ This object contains the final merged dependencies after inheritance resolution 
 
 Dependency resolution workflow:
 
-<ol> <li>Start with empty object.</li> <li>Merge <code>dependencies</code> from each inherited configuration in sequence (later overrides earlier).</li> <li>Merge local <code>dependencies</code> from JSON definition.</li> <li>Perform Liquid template substitution on the entire <code>dependencies</code> object with full configuration context (properties, matrix, etc.).</li> </ol>
+<ol> <li>Start with empty object.</li> <li>Merge <code>dependencies</code> from each inherited configuration  in sequence  (later overrides earlier).</li> <li>Merge local <code>dependencies</code> from JSON definition.</li> <li>Perform Liquid template substitution on the entire  <code>dependencies</code>  object with full configuration context (properties, matrix, etc.).</li> </ol>
 
 This enables configuration-specific dependencies with dynamic version ranges or package selection based on matrix parameters, platform detection, or configuration properties.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

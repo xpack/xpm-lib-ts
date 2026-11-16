@@ -90,12 +90,12 @@ Called by the Liquid engine when a matrix parameter is accessed that doesn't exi
 
 Resolution process:
 
-<ol> <li>Validate the parameter exists, throw <code>InputError</code> if not.</li> <li>Retrieve the parameter value (string, array, or object).</li> <li>If object, return as-is for Liquid to access nested properties.</li> <li>If array, join elements into a single string for processing.</li> <li>If the value contains Liquid syntax, recursively render it with the current context to resolve nested references.</li> <li>Return the final resolved value.</li> </ol>
+<ol> <li>Validate the parameter exists, throw <code>InputError</code> if not.</li> <li>Retrieve the parameter value (string, array, or object).</li> <li>If object, return as-is for Liquid to access nested properties.</li> <li>If array, join elements into a single string for processing.</li> <li>If the value contains Liquid syntax, recursively render it with the  current context to resolve nested references.</li> <li>Return the final resolved value.</li> </ol>
 
 This mirrors the behavior of [LiquidPropertiesDrop](/xpm-lib-ts/docs/api/xpm-lib/classes/liquidpropertiesdrop) but operates on matrix parameters instead of properties. Matrix values can reference other substitution variables, enabling complex template expansions.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

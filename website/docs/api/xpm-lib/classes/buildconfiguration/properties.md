@@ -28,12 +28,12 @@ This object contains the final merged properties after inheritance resolution an
 
 Property resolution order:
 
-<ol> <li>Start with empty object.</li> <li>Merge properties from each inherited configuration in sequence (later overrides earlier).</li> <li>Merge local properties from JSON definition (overrides all inherited).</li> <li>Add computed <code>buildFolderRelativePath</code> property for non-hidden configurations.</li> </ol>
+<ol> <li>Start with empty object.</li> <li>Merge properties from each inherited configuration in sequence  (later overrides earlier).</li> <li>Merge local properties from JSON definition (overrides all  inherited).</li> <li>Add computed <code>buildFolderRelativePath</code> property  for non-hidden  configurations.</li> </ol>
 
 Properties are accessible in templates as `{{ properties.key }}` and commonly used for compiler flags, toolchain paths, optimization settings, and build-specific configuration values.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -28,12 +28,12 @@ This set provides O(1) existence checks for configuration names, enabling effici
 
 Duplicate scenarios detected:
 
-<ol> <li>Explicit duplicates in <code>package.json</code> with identical names.</li> <li>Template expansion conflicts where different templates generate the same concrete configuration name.</li> <li>Conflicts between template-generated names and explicitly defined configuration names.</li> </ol>
+<ol> <li>Explicit duplicates in <code>package.json</code> with identical  names.</li> <li>Template expansion conflicts where different templates generate the  same concrete configuration name.</li> <li>Conflicts between template-generated names and explicitly defined  configuration names.</li> </ol>
 
 Detection occurs during [BuildConfigurations.initialise()](/xpm-lib-ts/docs/api/xpm-lib/classes/buildconfigurations/initialise)<!-- -->, throwing [ConfigurationError](/xpm-lib-ts/docs/api/xpm-lib/classes/configurationerror) when duplicates are found to ensure configuration name uniqueness.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

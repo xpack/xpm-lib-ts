@@ -28,12 +28,12 @@ This array contains the fully evaluated command lines ready for execution, with 
 
 Lifecycle states:
 
-<ol> <li>Undefined initially and until <code>Action.initialise()</code> is called.</li> <li>Populated during initialisation by evaluating <code>jsonAction</code> with the Liquid engine and complete variable context.</li> <li>Array-based JSON definitions are joined, substituted, then split back into individual command lines.</li> <li>Each string represents one command line to be executed sequentially.</li> </ol>
+<ol> <li>Undefined initially and until <code>Action.initialise()</code>  is called.</li> <li>Populated during initialisation by evaluating  <code>jsonAction</code> with the  Liquid engine and complete variable context.</li> <li>Array-based JSON definitions are joined, substituted, then split back  into individual command lines.</li> <li>Each string represents one command line to be executed  sequentially.</li> </ol>
 
 Attempting to access via the `commands` getter before initialisation will trigger an assertion error, enforcing correct usage order.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

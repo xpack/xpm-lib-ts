@@ -89,12 +89,12 @@ This method uses the [TemplateExpander](/xpm-lib-ts/docs/api/xpm-lib/classes/tem
 
 Processing steps:
 
-<ol> <li>Validates matrix and template structure.</li> <li>Delegates to <code>TemplateExpander</code> for matrix processing and name expansion.</li> <li>Creates configuration instances via factory callback for each combination.</li> </ol>
+<ol> <li>Validates matrix and template structure.</li> <li>Delegates to <code>TemplateExpander</code> for matrix processing and  name expansion.</li> <li>Creates configuration instances via factory callback for each  combination.</li> </ol>
 
 Matrix variables are scoped to individual configurations and accessible via the `matrix` namespace during property, dependency, and action evaluation.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

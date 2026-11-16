@@ -16,5 +16,5 @@ policies: Policies;
 
 Stores the [Policies](./xpm-lib.policies.md) instance supplied via the constructor. It is consulted in [InitTemplateBase.run()](./xpm-lib.inittemplatebase.run.md) to determine which substitution variable layout to build:
 
-<ul> <li>Legacy layout (<code>Policies.topPropertiesXpmInitTemplate</code> is <code>true</code>): configuration properties are spread at the top level of <code>substitutionsVariables</code>.</li> <li>Modern layout (<code>false</code>): configuration properties are placed under <code>substitutionsVariables.matrix</code>, and base variables from <code>liquidSubstitutionsVariablesBase</code> populate <code>substitutionsVariables.properties</code>.</li> </ul>
+<ul> <li>Legacy layout (<code>Policies.topPropertiesXpmInitTemplate</code>  is <code>true</code>): configuration properties are spread at the top  level of <code>substitutionsVariables</code>.</li> <li>Modern layout (<code>false</code>): configuration properties are  placed under <code>substitutionsVariables.matrix</code>, and  base variables from  <code>liquidSubstitutionsVariablesBase</code> populate  <code>substitutionsVariables.properties</code>.</li> </ul>
 

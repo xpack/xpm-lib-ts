@@ -37,12 +37,12 @@ This method performs variable substitution on the action commands using the Liqu
 
 The substitution context includes:
 
-<ol> <li>All package-level substitution variables (configuration, package metadata, platform detection, etc.).</li> <li>Build configuration variables if this action belongs to a configuration.</li> <li>Matrix parameters for template-generated actions, accessible via the <code>matrix</code> namespace (e.g., <code>{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> </ol>
+<ol> <li>All package-level substitution variables (configuration, package  metadata, platform detection, etc.).</li> <li>Build configuration variables if this action belongs to a  configuration.</li> <li>Matrix parameters for template-generated actions, accessible via  the <code>matrix</code> namespace (e.g.,  <code>{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> </ol>
 
 Array-based command definitions are joined with newlines before substitution, then split back into individual commands after processing. This allows commands to span multiple array elements while maintaining clean formatting in the package manifest.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

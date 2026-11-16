@@ -28,10 +28,10 @@ This function is invoked for each combination generated during template expansio
 
 The callback is responsible for:
 
-<ol> <li>Creating the appropriate instance type (e.g., <code>Action</code> or <code>BuildConfiguration</code>).</li> <li>Passing the expanded name to the instance constructor.</li> <li>Storing the matrix parameters for later template evaluation.</li> <li>Associating the template content with the instance.</li> </ol>
+<ol> <li>Creating the appropriate instance type (e.g., <code>Action</code> or  <code>BuildConfiguration</code>).</li> <li>Passing the expanded name to the instance constructor.</li> <li>Storing the matrix parameters for later template evaluation.</li> <li>Associating the template content with the instance.</li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

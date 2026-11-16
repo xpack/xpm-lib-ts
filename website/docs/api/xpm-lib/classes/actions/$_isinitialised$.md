@@ -28,12 +28,12 @@ This flag prevents redundant initialisation and ensures idempotent behavior when
 
 State transitions:
 
-<ol> <li>Initially <code>false</code> after construction.</li> <li>Set to <code>true</code> after successful template expansion and action name registration.</li> <li>Checked at the beginning of <code>Actions.initialise()</code> to return early if already initialised.</li> </ol>
+<ol> <li>Initially <code>false</code> after construction.</li> <li>Set to <code>true</code> after successful template expansion and  action name  registration.</li> <li>Checked at the beginning of <code>Actions.initialise()</code> to  return early if already initialised.</li> </ol>
 
 This pattern supports safe repeated calls during complex initialisation sequences without duplicating work or corrupting internal state.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

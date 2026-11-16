@@ -79,7 +79,7 @@ This method uses the [TemplateExpander](./xpm-lib.templateexpander.md) to comput
 
 Processing steps:
 
-<ol> <li>Validates matrix and template structure.</li> <li>Delegates to <code>TemplateExpander</code> for matrix processing and name expansion.</li> <li>Creates action instances via factory callback for each combination.</li> </ol>
+<ol> <li>Validates matrix and template structure.</li> <li>Delegates to <code>TemplateExpander</code> for matrix processing and  name expansion.</li> <li>Creates action instances via factory callback for each  combination.</li> </ol>
 
 Matrix variables are scoped to individual actions and accessible via the `matrix` namespace during action command evaluation.
 

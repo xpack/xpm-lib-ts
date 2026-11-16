@@ -26,7 +26,7 @@ The main functionality is to manage actions and build configurations, especially
 
 Actions ([Actions](/xpm-lib-ts/docs/api/xpm-lib/classes/actions)<!-- -->) and build configurations ([BuildConfigurations](/xpm-lib-ts/docs/api/xpm-lib/classes/buildconfigurations)<!-- -->) implement a two-step lazy evaluation process to avoid unnecessary operations:
 
-<ol> <li><b>Name Expansion:</b> During collection initialisation, only the matrix of options is evaluated for each template, expanding template names into concrete action or configuration names without processing their content.</li> <li><b>Content Evaluation:</b> Later, when an action or build configuration is actually accessed and initialised (via <code>Action.initialise()</code> or <code>BuildConfiguration.initialise()</code>), the template is fully evaluated and Liquid substitutions are performed.</li> </ol>
+<ol> <li><b>Name Expansion:</b> During collection initialisation, only  the matrix of  options is evaluated for each template, expanding template names into  concrete action or configuration names without processing their content.</li> <li><b>Content Evaluation:</b> Later, when an action or build  configuration is actually accessed and initialised (via  <code>Action.initialise()</code>  or <code>BuildConfiguration.initialise()</code>), the template  is fully  evaluated and Liquid substitutions are performed.</li> </ol>
 
 This approach ensures that only items that are actually used incur the cost of template evaluation and variable substitution, significantly improving performance for projects with many actions or configurations.
 
@@ -1145,6 +1145,6 @@ A matrix combination mapping parameter names to their values.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

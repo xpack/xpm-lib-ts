@@ -16,7 +16,7 @@ readonly jsonActions: JsonActions;
 
 This object holds the raw action definitions as they appear in the `package.json` `xpack.actions` section or within a build configuration's actions. Action definitions can be:
 
-<ol> <li><b>Simple strings:</b> Single command to execute.</li> <li><b>String arrays:</b> Multiple commands executed sequentially.</li> <li><b>Template objects:</b> With <code>matrix</code> and <code>template</code> properties for generating multiple actions from a single definition.</li> </ol>
+<ol> <li><b>Simple strings:</b> Single command to execute.</li> <li><b>String arrays:</b> Multiple commands executed sequentially.</li> <li><b>Template objects:</b> With <code>matrix</code> and  <code>template</code> properties for  generating multiple actions from a single definition.</li> </ol>
 
 Template action names (containing `{{` markers) trigger matrix expansion during initialisation, creating concrete actions from the Cartesian product of matrix parameter values.
 

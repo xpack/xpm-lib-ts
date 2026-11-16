@@ -18,7 +18,7 @@ This path specifies where build outputs for this configuration should be placed,
 
 Computation workflow:
 
-<ol> <li>Undefined until <code>BuildConfiguration.initialise()</code> is called.</li> <li>Not computed for hidden configurations (optimization).</li> <li>If <code>buildFolderRelativePath</code> property exists, perform Liquid substitution with full configuration context.</li> <li>Otherwise, generate default path: <code>build/<!-- -->{<!-- -->sanitized-config-name<!-- -->}</code>.</li> <li>Added to <code>properties.buildFolderRelativePath</code> for use in action commands and dependency references.</li> </ol>
+<ol> <li>Undefined until <code>BuildConfiguration.initialise()</code> is  called.</li> <li>Not computed for hidden configurations (optimization).</li> <li>If <code>buildFolderRelativePath</code> property exists, perform Liquid  substitution with full configuration context.</li> <li>Otherwise, generate default path:  <code>build/<!-- -->{<!-- -->sanitized-config-name<!-- -->}</code>.</li> <li>Added to <code>properties.buildFolderRelativePath</code> for use  in action  commands and dependency references.</li> </ol>
 
 The path is relative to the package root and used by build tools to organize outputs from different configurations.
 

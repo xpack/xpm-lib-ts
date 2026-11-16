@@ -95,12 +95,12 @@ Examples:
 
 Architecture coercion rules (when doForce32bit is true):
 
-<ul> <li><b>x64 → ia32:</b> Coerces 64-bit Intel/AMD architecture to 32-bit on all platforms.</li> <li><b>arm64 → arm:</b> Coerces 64-bit ARM architecture to 32-bit on all platforms.</li> </ul>
+<ul> <li><b>x64 → ia32:</b> Coerces 64-bit Intel/AMD architecture to 32-bit  on all platforms.</li> <li><b>arm64 → arm:</b> Coerces 64-bit ARM architecture to 32-bit  on all platforms.</li> </ul>
 
 This coercion is useful for backward compatibility scenarios where only 32-bit binaries are available but can run on 64-bit systems. The platform key matches the naming conventions used in binary xPack distributions.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

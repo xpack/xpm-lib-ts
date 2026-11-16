@@ -88,12 +88,12 @@ This method ensures that packages requiring specific <b>xpm</b> features or bug 
 
 Validation workflow:
 
-<ol> <li>Check if package is an <b>xpm</b> package with <code>minimumXpmRequired</code> set.</li> <li>Clean the required version by removing pre-release suffixes.</li> <li>Load the <b>xpm</b> CLI's <code>package.json</code> from the provided root folder.</li> <li>Extract and clean the installed <b>xpm</b> version.</li> <li>Compare versions using semver to determine if upgrade is needed.</li> <li>Throw <code>PrerequisitesError</code> if installed version is too old.</li> </ol>
+<ol> <li>Check if package is an <b>xpm</b> package with  <code>minimumXpmRequired</code> set.</li> <li>Clean the required version by removing pre-release suffixes.</li> <li>Load the <b>xpm</b> CLI's <code>package.json</code> from the  provided root folder.</li> <li>Extract and clean the installed <b>xpm</b> version.</li> <li>Compare versions using semver to determine if upgrade is needed.</li> <li>Throw <code>PrerequisitesError</code> if installed version is too old.</li> </ol>
 
 Pre-release suffixes are stripped from both versions to ensure that pre-release builds satisfy version requirements (e.g., 1.0.0-beta satisfies minimumXpmRequired: 1.0.0).
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

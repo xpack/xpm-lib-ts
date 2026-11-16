@@ -32,7 +32,7 @@ An individual <b>xpm</b> action containing commands to be executed.
 
 </td><td>
 
-A collection of <b>xpm</b> actions for a build configuration or the entire package.
+A collection of <b>xpm</b> actions for a build configuration or
 
 </td></tr>
 <tr><td>
@@ -199,6 +199,6 @@ A generic template expansion engine for matrix-based template processing.
 </td></tr>
 </tbody></table><hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

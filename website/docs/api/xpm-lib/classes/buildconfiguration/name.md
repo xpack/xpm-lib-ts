@@ -28,12 +28,12 @@ This is the final, expanded configuration name used for identification and selec
 
 The name is used for:
 
-<ol> <li>User-facing identification when listing or selecting configurations.</li> <li><b>Build folder path generation (default:</b> <code>build/<!-- -->{<!-- -->name<!-- -->}</code>).</li> <li>Logging and diagnostic output to track configuration lifecycle.</li> <li>Inheritance references from other configurations.</li> </ol>
+<ol> <li>User-facing identification when listing or selecting  configurations.</li> <li><b>Build folder path generation (default:</b>  <code>build/<!-- -->{<!-- -->name<!-- -->}</code>).</li> <li>Logging and diagnostic output to track configuration lifecycle.</li> <li>Inheritance references from other configurations.</li> </ol>
 
 Names must be unique within the configurations collection, enforced during [BuildConfigurations.initialise()](/xpm-lib-ts/docs/api/xpm-lib/classes/buildconfigurations/initialise)<!-- -->.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

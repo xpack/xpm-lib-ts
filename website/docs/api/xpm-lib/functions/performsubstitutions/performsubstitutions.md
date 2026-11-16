@@ -95,7 +95,7 @@ This function processes Liquid template syntax (variables and tags) by repeatedl
 
 Processing workflow:
 
-<ol> <li>Skip processing for empty strings to avoid unnecessary overhead.</li> <li>Prepare Liquid context with substitution variables.</li> <li>If <code>properties</code> exist, wrap them in <code>LiquidPropertiesDrop</code> for lazy evaluation and nested substitution support.</li> <li>If <code>matrix</code> parameters exist, wrap them in <code>LiquidMatrixDrop</code> for template expansion variable access.</li> <li>Iterate while Liquid syntax (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>) is present: <ul> <li>Parse and render the current string.</li> <li>Break if no changes occur (safety check).</li> <li>Continue with the substituted result.</li> </ul> </li> <li>Return the fully substituted string.</li> </ol>
+<ol> <li>Skip processing for empty strings to avoid unnecessary overhead.</li> <li>Prepare Liquid context with substitution variables.</li> <li>If <code>properties</code> exist, wrap them in  <code>LiquidPropertiesDrop</code>  for lazy evaluation and nested substitution support.</li> <li>If <code>matrix</code> parameters exist, wrap them in  <code>LiquidMatrixDrop</code>  for template expansion variable access.</li> <li>Iterate while Liquid syntax (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>)  is present:  <ul>  <li>Parse and render the current string.</li>  <li>Break if no changes occur (safety check).</li>  <li>Continue with the substituted result.</li>  </ul> </li> <li>Return the fully substituted string.</li> </ol>
 
 The Drop pattern enables recursive property resolution: when a template accesses `{{ properties.foo }}` and `foo` contains `{{ properties.bar }}`<!-- -->, the next iteration resolves `bar`<!-- -->, and so on until no Liquid syntax remains.
 
@@ -105,6 +105,6 @@ Liquid rendering errors are caught, stripped of line number information (which c
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

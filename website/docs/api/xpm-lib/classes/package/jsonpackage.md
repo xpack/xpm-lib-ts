@@ -28,12 +28,12 @@ This property caches the parsed `package.json` content after successful reading,
 
 Lifecycle states:
 
-<ol> <li>Initially undefined when the <code>Package</code> instance is created.</li> <li>Populated by <code>Package.readPackageDotJson()</code> upon successful read and parse.</li> <li>Cleared to undefined if parsing fails with <code>withThrow</code> enabled.</li> <li>Used by validation methods (<code>isNpmPackage</code>, <code>isxpm.Package</code>, <code>isBinaryXpmPackage</code>) to check package capabilities.</li> <li>Not automatically updated when <code>package.json</code> is modified externally; call <code>Package.readPackageDotJson()</code> again to refresh.</li> </ol>
+<ol> <li>Initially undefined when the <code>Package</code> instance  is created.</li> <li>Populated by <code>Package.readPackageDotJson()</code> upon  successful read and parse.</li> <li>Cleared to undefined if parsing fails with  <code>withThrow</code> enabled.</li> <li>Used by validation methods (<code>isNpmPackage</code>,  <code>isxpm.Package</code>,  <code>isBinaryXpmPackage</code>) to check package capabilities.</li> <li>Not automatically updated when <code>package.json</code> is  modified externally;  call <code>Package.readPackageDotJson()</code> again to refresh.</li> </ol>
 
 The cached content improves performance for packages that perform multiple validation checks without file system access overhead.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

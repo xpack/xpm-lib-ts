@@ -18,7 +18,7 @@ Property definitions control how users are prompted for template configuration v
 
 Property types:
 
-<ul> <li><code>select</code>: Present a list of options for the user to choose from. Requires <code>items</code> to be populated with available choices.</li> <li><code>string</code>: Accept free-form text input from the user.</li> <li><code>number</code>: Accept numeric input with validation.</li> <li><code>boolean</code>: Accept yes/no input (<code>true</code>/<code>false</code>).</li> </ul>
+<ul> <li><code>select</code>: Present a list of options for the user to  choose from.  Requires <code>items</code> to be populated with available choices.</li> <li><code>string</code>: Accept free-form text input from the user.</li> <li><code>number</code>: Accept numeric input with validation.</li> <li><code>boolean</code>: Accept yes/no input  (<code>true</code>/<code>false</code>).</li> </ul>
 
 Platform filtering: For `select` types, items can specify platform constraints via `InitTemplateItemValue`<!-- -->, hiding options that don't match the current platform. This enables platform-specific configuration without manual filtering.
 

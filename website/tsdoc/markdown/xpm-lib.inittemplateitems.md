@@ -19,7 +19,7 @@ Items define the options users can choose from when a property uses the <code>se
 
 Item values can be either:
 
-<ul> <li><b>Simple string:</b> A description shown to all users regardless of platform.</li> <li><b><code>InitTemplateItemValue</code>:</b> A platform-specific item that only appears when the current platform matches the <code>platforms</code> constraint.</li> </ul>
+<ul> <li><b>Simple string:</b> A description shown to all users regardless  of platform.</li> <li><b><code>InitTemplateItemValue</code>:</b> A platform-specific  item that only appears when the current platform matches the  <code>platforms</code> constraint.</li> </ul>
 
 Example:
 

@@ -28,12 +28,12 @@ This flag determines whether the template execution involved user interaction th
 
 State management:
 
-<ol> <li>Initialised to <code>false</code> upon construction.</li> <li>Set to <code>true</code> in [InitTemplateBase.run()](/xpm-lib-ts/docs/api/xpm-lib/classes/inittemplatebase/run) if at least one mandatory property was missing and required interactive prompting.</li> <li>Set to <code>false</code> if all mandatory properties were provided via command-line options.</li> </ol>
+<ol> <li>Initialised to <code>false</code> upon construction.</li> <li>Set to <code>true</code> in [InitTemplateBase.run()](/xpm-lib-ts/docs/api/xpm-lib/classes/inittemplatebase/run) if at least  one mandatory property was missing and required interactive  prompting.</li> <li>Set to <code>false</code> if all mandatory properties were provided  via command-line options.</li> </ol>
 
 When interactive mode is activated, the context start time is reset after user input to exclude interactive time from performance metrics, ensuring accurate measurement of the template processing duration.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

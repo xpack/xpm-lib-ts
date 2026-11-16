@@ -83,7 +83,7 @@ This function extracts common matrix processing logic used by both actions and b
 
 Processing steps:
 
-<ol> <li>Validates that each matrix property is an array of strings.</li> <li>For each matrix parameter: <ul> <li>Collects the parameter name (key).</li> <li>Joins array values with line breaks for substitution.</li> <li>If values contain Liquid syntax, performs substitutions.</li> <li>Splits the result back into individual values.</li> </ul> </li> <li>Returns processed matrix keys and values ready for combination generation.</li> </ol>
+<ol> <li>Validates that each matrix property is an array of strings.</li> <li>For each matrix parameter:  <ul>  <li>Collects the parameter name (key).</li>  <li>Joins array values with line breaks for substitution.</li>  <li>If values contain Liquid syntax, performs substitutions.</li>  <li>Splits the result back into individual values.</li>  </ul> </li> <li>Returns processed matrix keys and values ready for combination  generation.</li> </ol>
 
 Matrix value substitution enables dynamic matrix generation where matrix values themselves can reference other substitution variables, enabling flexible configuration without hardcoding platform-specific or environment-specific values.
 

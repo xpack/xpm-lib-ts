@@ -70,12 +70,12 @@ This function provides explicit POSIX path sanitization regardless of the curren
 
 Processing rules:
 
-<ul> <li>Preserves forward slashes (<code>/</code>) for path separators.</li> <li>Replaces all non-alphanumeric characters (except <code>/</code>) with dashes.</li> <li>Collapses consecutive dashes to single dashes.</li> </ul>
+<ul> <li>Preserves forward slashes (<code>/</code>) for path separators.</li> <li>Replaces all non-alphanumeric characters (except <code>/</code>) with  dashes.</li> <li>Collapses consecutive dashes to single dashes.</li> </ul>
 
 Use this function instead of [filterPath()](/xpm-lib-ts/docs/api/xpm-lib/functions/filterpath) when you need guaranteed POSIX-style sanitization even when running on Windows, such as when generating paths for remote Linux systems or container images.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

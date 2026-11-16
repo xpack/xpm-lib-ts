@@ -86,12 +86,12 @@ This method implements the recursive algorithm for generating the Cartesian prod
 
 Algorithm steps:
 
-<ol> <li><b>Base case:</b> If all parameters have been assigned values (<code>index === matrixKeys.length</code>), yield a copy of the current combination and return.</li> <li><b>Recursive case:</b> For the parameter at the current index: <ul> <li>Iterate through all possible values for this parameter.</li> <li>Assign each value to the combination object.</li> <li>Recursively yield combinations for the next parameter using <code>yield\*</code>.</li> <li>Remove the assigned value (backtrack) before trying the next value.</li> </ul> </li> </ol>
+<ol> <li><b>Base case:</b> If all parameters have been assigned values  (<code>index === matrixKeys.length</code>), yield a copy of the  current combination and return.</li> <li><b>Recursive case:</b> For the parameter at the current index:  <ul>  <li>Iterate through all possible values for this parameter.</li>  <li>Assign each value to the combination object.</li>  <li>Recursively yield combinations for the next parameter using  <code>yield\*</code>.</li>  <li>Remove the assigned value (backtrack) before trying the next  value.</li>  </ul> </li> </ol>
 
 The combination object is reused and modified during traversal, with only copies of complete combinations being yielded. This approach minimises memory allocation whilst maintaining correctness.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

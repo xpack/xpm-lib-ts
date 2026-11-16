@@ -18,7 +18,7 @@ This property caches the parsed `package.json` content after successful reading,
 
 Lifecycle states:
 
-<ol> <li>Initially undefined when the <code>Package</code> instance is created.</li> <li>Populated by <code>Package.readPackageDotJson()</code> upon successful read and parse.</li> <li>Cleared to undefined if parsing fails with <code>withThrow</code> enabled.</li> <li>Used by validation methods (<code>isNpmPackage</code>, <code>isxpm.Package</code>, <code>isBinaryXpmPackage</code>) to check package capabilities.</li> <li>Not automatically updated when <code>package.json</code> is modified externally; call <code>Package.readPackageDotJson()</code> again to refresh.</li> </ol>
+<ol> <li>Initially undefined when the <code>Package</code> instance  is created.</li> <li>Populated by <code>Package.readPackageDotJson()</code> upon  successful read and parse.</li> <li>Cleared to undefined if parsing fails with  <code>withThrow</code> enabled.</li> <li>Used by validation methods (<code>isNpmPackage</code>,  <code>isxpm.Package</code>,  <code>isBinaryXpmPackage</code>) to check package capabilities.</li> <li>Not automatically updated when <code>package.json</code> is  modified externally;  call <code>Package.readPackageDotJson()</code> again to refresh.</li> </ol>
 
 The cached content improves performance for packages that perform multiple validation checks without file system access overhead.
 

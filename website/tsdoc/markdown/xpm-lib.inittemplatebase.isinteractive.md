@@ -18,7 +18,7 @@ This flag determines whether the template execution involved user interaction th
 
 State management:
 
-<ol> <li>Initialised to <code>false</code> upon construction.</li> <li>Set to <code>true</code> in [InitTemplateBase.run()](./xpm-lib.inittemplatebase.run.md) if at least one mandatory property was missing and required interactive prompting.</li> <li>Set to <code>false</code> if all mandatory properties were provided via command-line options.</li> </ol>
+<ol> <li>Initialised to <code>false</code> upon construction.</li> <li>Set to <code>true</code> in [InitTemplateBase.run()](./xpm-lib.inittemplatebase.run.md) if at least  one mandatory property was missing and required interactive  prompting.</li> <li>Set to <code>false</code> if all mandatory properties were provided  via command-line options.</li> </ol>
 
 When interactive mode is activated, the context start time is reset after user input to exclude interactive time from performance metrics, ensuring accurate measurement of the template processing duration.
 

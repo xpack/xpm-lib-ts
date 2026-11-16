@@ -28,12 +28,12 @@ This actions collection is created during configuration initialisation and combi
 
 Action assembly workflow:
 
-<ol> <li>Undefined until <code>BuildConfiguration.initialise()</code> is called.</li> <li>Collect actions from all inherited configurations in the inheritance chain.</li> <li>Create new <code>Actions</code> collection with inherited actions map and local action definitions.</li> <li>Actions inherit the configuration's substitution variables context, including properties and matrix parameters.</li> </ol>
+<ol> <li>Undefined until <code>BuildConfiguration.initialise()</code> is  called.</li> <li>Collect actions from all inherited configurations in the inheritance  chain.</li> <li>Create new <code>Actions</code> collection with inherited  actions map and local action definitions.</li> <li>Actions inherit the configuration's substitution variables context,  including properties and matrix parameters.</li> </ol>
 
 Actions are accessible after configuration initialisation but remain themselves uninitialised until retrieved and initialised individually, maintaining the lazy evaluation pattern.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -26,10 +26,10 @@ export type InitTemplateType = 'select' | 'string' | 'number' | 'boolean';
 
 Property types control how the `xpm init` command prompts users for configuration values during template initialisation:
 
-<ul> <li><b><code>select</code>:</b> Presents a list of predefined options for the user to choose from. Requires the <code>items</code> field to be populated.</li> <li><b><code>string</code>:</b> Accepts free-form text input from the user.</li> <li><b><code>number</code>:</b> Accepts numeric input with validation.</li> <li><b><code>boolean</code>:</b> Accepts yes/no input, converted to <code>true</code> or <code>false</code>.</li> </ul>
+<ul> <li><b><code>select</code>:</b> Presents a list of predefined options  for the user to choose from. Requires the <code>items</code> field to  be populated.</li> <li><b><code>string</code>:</b> Accepts free-form text input from the  user.</li> <li><b><code>number</code>:</b> Accepts numeric input with  validation.</li> <li><b><code>boolean</code>:</b> Accepts yes/no input, converted to  <code>true</code> or <code>false</code>.</li> </ul>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

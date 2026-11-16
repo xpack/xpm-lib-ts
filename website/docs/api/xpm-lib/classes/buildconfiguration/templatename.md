@@ -28,10 +28,10 @@ For template-generated configurations, this preserves the original template name
 
 Usage:
 
-<ol> <li>Undefined for regular (non-template) configurations.</li> <li>Set to the template name for configurations generated from matrix expansion.</li> <li>Used to determine whether full JSON substitution is needed during initialisation (templates require complete substitution, regular configurations only substitute specific fields).</li> <li>Enables tracing and debugging of template expansion process.</li> </ol>
+<ol> <li>Undefined for regular (non-template) configurations.</li> <li>Set to the template name for configurations generated from matrix  expansion.</li> <li>Used to determine whether full JSON substitution is needed during  initialisation (templates require complete substitution, regular  configurations only substitute specific fields).</li> <li>Enables tracing and debugging of template expansion process.</li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

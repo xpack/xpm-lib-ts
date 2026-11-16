@@ -39,12 +39,12 @@ This method resolves inheritance, applies variable substitutions, computes depen
 
 Initialisation workflow:
 
-<ol> <li>Return early if already initialised (idempotent behaviour).</li> <li>For template configurations: Call <code>\_substituteTemplate()</code> to substitute matrix parameters throughout the entire JSON structure.</li> <li>For non-template configurations: Call <code>\_substituteInherits()</code> to substitute only the inherits field.</li> <li>Call <code>\_processInherits()</code> to: <ul> <li>Process inheritance chain recursively with circular reference detection.</li> <li>Merge properties, dependencies, and devDependencies from inherited configurations (later overrides earlier).</li> <li>Collect inherited actions into a map.</li> </ul> </li> <li>Apply local properties and update substitution variables context.</li> <li>For visible configurations: Compute build folder relative path via <code>\_getBuildFolderRelativePath()</code>.</li> <li>Substitute Liquid templates in dependencies and devDependencies.</li> <li>Create actions collection with inherited actions and local actions.</li> </ol>
+<ol> <li>Return early if already initialised (idempotent behaviour).</li> <li>For template configurations: Call  <code>\_substituteTemplate()</code> to substitute  matrix parameters throughout the entire JSON structure.</li> <li>For non-template configurations: Call  <code>\_substituteInherits()</code> to substitute  only the inherits field.</li> <li>Call <code>\_processInherits()</code> to:  <ul>  <li>Process inheritance chain recursively with circular reference  detection.</li>  <li>Merge properties, dependencies, and devDependencies from inherited  configurations (later overrides earlier).</li>  <li>Collect inherited actions into a map.</li>  </ul> </li> <li>Apply local properties and update substitution variables context.</li> <li>For visible configurations: Compute build folder relative path via  <code>\_getBuildFolderRelativePath()</code>.</li> <li>Substitute Liquid templates in dependencies and devDependencies.</li> <li>Create actions collection with inherited actions and local actions.</li> </ol>
 
 The substitution context includes package variables, configuration properties, matrix parameters (for templates), and the configuration object itself accessible via `configuration.name`<!-- -->, etc.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

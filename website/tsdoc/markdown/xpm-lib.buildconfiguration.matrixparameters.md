@@ -18,7 +18,7 @@ For template-generated configurations, this object contains the specific matrix 
 
 Usage pattern:
 
-<ol> <li>Undefined for regular (non-template) configurations.</li> <li>For template configurations, contains key-value pairs from the matrix combination (e.g., <code>{ arch: 'x64', optimize: 'speed' }</code>).</li> <li>Merged into substitution variables during initialisation, making values accessible via the <code>matrix</code> namespace throughout the configuration.</li> <li>Used in configuration name substitution, property values, dependencies, and action commands.</li> </ol>
+<ol> <li>Undefined for regular (non-template) configurations.</li> <li>For template configurations, contains key-value pairs from the matrix  combination (e.g.,  <code>{ arch: 'x64', optimize: 'speed' }</code>).</li> <li>Merged into substitution variables during initialisation, making  values accessible via the <code>matrix</code> namespace throughout the  configuration.</li> <li>Used in configuration name substitution, property values,  dependencies, and action commands.</li> </ol>
 
 Example: A template `release-{{ matrix.arch }}` with matrix parameters `{ arch: 'x64' }` becomes the concrete configuration `release-x64`<!-- -->.
 

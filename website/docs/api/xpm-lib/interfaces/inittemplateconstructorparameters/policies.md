@@ -26,10 +26,10 @@ policies: Policies;
 
 The `Policies` instance encapsulates compatibility flags derived from the minimum required <b>xpm</b> version declared by the package being initialised. These flags control how the template builds its substitution variables:
 
-<ul> <li>When <code>Policies.topPropertiesXpmInitTemplate</code> is <code>true</code> (legacy, <b>xpm</b> &lt; 0.23.0), configuration properties are spread at the top level of <code>substitutionsVariables</code> for direct access in templates.</li> <li>When <code>Policies.topPropertiesXpmInitTemplate</code> is <code>false</code> (modern, <b>xpm</b> &gt;<!-- -->= 0.23.0), configuration properties are grouped under <code>substitutionsVariables.matrix</code>, and base variables from <code>liquidSubstitutionsVariablesBase</code> are merged into <code>substitutionsVariables.properties</code>.</li> </ul>
+<ul> <li>When <code>Policies.topPropertiesXpmInitTemplate</code> is  <code>true</code> (legacy, <b>xpm</b> &lt; 0.23.0), configuration  properties are spread at the top level of  <code>substitutionsVariables</code> for direct access in  templates.</li> <li>When <code>Policies.topPropertiesXpmInitTemplate</code> is  <code>false</code> (modern, <b>xpm</b> &gt;<!-- -->= 0.23.0),  configuration properties are grouped under  <code>substitutionsVariables.matrix</code>, and base variables  from <code>liquidSubstitutionsVariablesBase</code> are merged into  <code>substitutionsVariables.properties</code>.</li> </ul>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

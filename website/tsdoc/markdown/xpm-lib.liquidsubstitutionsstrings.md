@@ -18,7 +18,7 @@ Values can be strings for simple substitutions or arrays for multi-line content.
 
 Common use cases:
 
-<ul> <li><b>Properties:</b> User-defined configuration values from <code>xpack.properties.</code></li> <li><b>Matrix parameters:</b> Template expansion variables from <code>matrix</code> definitions.</li> <li><b>Configuration data:</b> Build-specific settings and metadata.</li> </ul>
+<ul> <li><b>Properties:</b> User-defined configuration values from  <code>xpack.properties.</code></li> <li><b>Matrix parameters:</b> Template expansion variables from  <code>matrix</code> definitions.</li> <li><b>Configuration data:</b> Build-specific settings and metadata.</li> </ul>
 
 Templates access these values via namespaces like `properties.foo`<!-- -->, `matrix.arch`<!-- -->, etc., with the Liquid Drop pattern providing lazy evaluation and nested substitution support.
 

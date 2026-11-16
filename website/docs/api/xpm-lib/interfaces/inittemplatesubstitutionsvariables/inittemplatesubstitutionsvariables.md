@@ -28,7 +28,7 @@ Substitution variables provide the context for Liquid template processing during
 
 Variable structure:
 
-<ul> <li><b><code>properties</code></b>: Contains all user-provided or default values from the template property definitions, accessible via <code>{<!-- -->{ properties.propertyName }<!-- -->}</code> in template files.</li> <li><b>Additional variables:</b> Templates can define custom variables for reuse across multiple files or for computed values based on properties.</li> </ul>
+<ul> <li><b><code>properties</code></b>: Contains all user-provided or  default values from the  template property definitions, accessible via  <code>{<!-- -->{ properties.propertyName }<!-- -->}</code> in template files.</li> <li><b>Additional variables:</b> Templates can define custom variables  for reuse across multiple files or for computed values based on  properties.</li> </ul>
 
 Template files (with `.liquid` extension) are processed with this context, allowing conditional content, loops, and value substitution. Non-template files are copied as-is without processing.
 
@@ -87,6 +87,6 @@ _(Optional)_ The resolved template properties.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

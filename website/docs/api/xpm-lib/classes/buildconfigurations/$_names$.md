@@ -28,12 +28,12 @@ This array provides O(1) access to configuration names without repeatedly creati
 
 Key characteristics:
 
-<ol> <li>Empty initially after construction.</li> <li>Populated during <code>BuildConfigurations.initialise()</code> after all configuration names are determined.</li> <li>Contains all configuration names including those generated from templates.</li> <li>Returned by the <code>names</code> getter for efficient repeated access.</li> </ol>
+<ol> <li>Empty initially after construction.</li> <li>Populated during  <code>BuildConfigurations.initialise()</code> after all  configuration names are determined.</li> <li>Contains all configuration names including those generated from  templates.</li> <li>Returned by the <code>names</code> getter for efficient repeated  access.</li> </ol>
 
 This cached approach avoids the overhead of calling `Array.from(map.keys())` on every access whilst still providing a clean getter interface.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

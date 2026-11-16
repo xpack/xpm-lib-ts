@@ -28,10 +28,10 @@ This collection manages all build configurations defined in `xpack.buildConfigur
 
 Build configurations characteristics:
 
-<ol> <li>Created during construction but initially unpopulated.</li> <li>Populated during the collection's own initialisation when <code>BuildConfigurations.initialise()</code> is called.</li> <li>Each configuration inherits the package-level substitution variables and extends them with configuration-specific context.</li> <li>Support complex inheritance chains where configurations can inherit properties, dependencies, and actions from other configurations.</li> <li>Can be generated from templates with matrix expansion for multi-platform or multi-variant builds.</li> <li>Each configuration maintains its own actions collection, inheriting package-level actions and adding configuration-specific ones.</li> </ol>
+<ol> <li>Created during construction but initially unpopulated.</li> <li>Populated during the collection's own initialisation when  <code>BuildConfigurations.initialise()</code> is called.</li> <li>Each configuration inherits the package-level substitution variables  and extends them with configuration-specific context.</li> <li>Support complex inheritance chains where configurations can inherit  properties, dependencies, and actions from other configurations.</li> <li>Can be generated from templates with matrix expansion for  multi-platform or multi-variant builds.</li> <li>Each configuration maintains its own actions collection, inheriting  package-level actions and adding configuration-specific ones.</li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

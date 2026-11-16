@@ -28,7 +28,7 @@ Platform identifiers filter select items based on the current execution environm
 
 Platform matching strategy:
 
-<ul> <li><b>Generic platforms (linux, win32, darwin):</b> match any architecture on operating system.</li> <li><b>Specific platforms (linux-x64, darwin-arm64, etc.):</b> match only the exact OS and architecture combination.</li> </ul>
+<ul> <li><b>Generic platforms (linux, win32, darwin):</b> match any  architecture on operating system.</li> <li><b>Specific platforms (linux-x64, darwin-arm64, etc.):</b> match  only the exact OS and architecture combination.</li> </ul>
 
 Example: An item with `platforms: ["darwin-arm64"]` only appears when running on Apple Silicon Macs, while `platforms: ["darwin"]` appears on both Intel and ARM Macs.
 
@@ -36,6 +36,6 @@ Common use case: Offering different toolchain options based on whether the user 
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

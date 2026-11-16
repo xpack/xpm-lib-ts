@@ -33,12 +33,12 @@ This method resolves the build folder relative path property when provided and u
 
 Resolution strategy:
 
-<ol> <li>Check if buildFolderRelativePath property exists in configuration properties.</li> <li>If present and non-empty, perform Liquid substitutions with the full configuration context.</li> <li>If substitution fails or property is empty/missing, generate a default path: `build/{filtered-configuration-name}` where the configuration name is sanitized for filesystem compatibility.</li> </ol>
+<ol> <li>Check if buildFolderRelativePath property exists in configuration  properties.</li> <li>If present and non-empty, perform Liquid substitutions with the  full configuration context.</li> <li>If substitution fails or property is empty/missing, generate a  default path: `build/{filtered-configuration-name}` where the  configuration name is sanitized for filesystem compatibility.</li> </ol>
 
 The computed path is added back to the properties as `buildFolderRelativePath` for use in subsequent substitutions.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

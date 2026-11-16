@@ -92,11 +92,11 @@ This function modifies file system permissions recursively, handling both files 
 
 Processing strategy:
 
-<ol> <li><b>Symbolic links:</b> Ignored because links permissions cannot be reliably changed across platforms.</li> <li><b>Read-only mode:</b> Process folder contents first (recursively), then set the folder itself to read-only. This prevents permission denied errors when trying to access a read-only folder's contents.</li> <li><b>Read-write mode:</b> Set folder to read-write first, then process contents recursively. This ensures the folder is writable before attempting to modify nested items.</li> </ol>
+<ol> <li><b>Symbolic links:</b> Ignored because links permissions  cannot be reliably changed across platforms.</li> <li><b>Read-only mode:</b> Process folder contents first (recursively),  then set  the folder itself to read-only. This prevents permission denied errors  when trying to access a read-only folder's contents.</li> <li><b>Read-write mode:</b> Set folder to read-write first, then process  contents  recursively. This ensures the folder is writable before attempting to  modify nested items.</li> </ol>
 
 Permission modes applied:
 
-<ul> <li><b>Read-only:</b> Removes all write bits (user, group, other) using bitwise AND with negated <code>S\_IWUSR</code> \| <code>S\_IWGRP</code> \| <code>S\_IWOTH</code>.</li> <li><b>Read-write:</b> Adds only user write bit using bitwise OR with <code>S\_IWUSR</code>, preserving existing group and other permissions.</li> </ul>
+<ul> <li><b>Read-only:</b> Removes all write bits (user, group, other)  using bitwise  AND with negated <code>S\_IWUSR</code> \| <code>S\_IWGRP</code> \|  <code>S\_IWOTH</code>.</li> <li><b>Read-write:</b> Adds only user write bit using bitwise OR with  <code>S\_IWUSR</code>,  preserving existing group and other permissions.</li> </ul>
 
 The function validates the result after each chmod operation and logs warnings if the expected permission state is not achieved, which can occur on filesystems with non-standard permission handling.
 
@@ -104,6 +104,6 @@ Recursion depth is limited to `CHMOD_RECURSIVELY_MAX_DEPTH` levels to protect ag
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -9,23 +9,20 @@ The folder was created with:
 npx create-docusaurus website classic --typescript
 ```
 
-## docusaurus-plugin-typedoc
+## The API reference
 
-This plugin uses [TypeDoc](https://typedoc.org) to generate
-the reference as markdown pages in `docs/api`.
-
-- https://typedoc-plugin-markdown.org/plugins/docusaurus
+The pages under `docs/api` are generated from the TSDoc comments of the
+library, with `@microsoft/api-extractor`, `@microsoft/api-documenter`, and
+`@xpack/tsdoc2docusaurus-cli`:
 
 ```sh
 cd website
-npm install typedoc typedoc-plugin-markdown docusaurus-plugin-typedoc --save-dev
+npm run generate-website-tsdoc
 ```
 
-[!NOTE]
-There is a new spec ([TSDoc](https://tsdoc.org)), pushed by
-Microsoft, slightly different, for example there are no
-categories or groups.
+The configuration files are in the `config` folder. The generated pages
+must not be edited; to change them, edit the TSDoc comments in
+`src/lib/logger.ts`, and generate the pages again.
 
-[!NOTE]
-There is also another plugin, `docusaurus-plugin-typedoc-api`, but
-it is no longer maintained.
+- https://api-extractor.com
+- https://xpack.github.io/tsdoc2docusaurus/

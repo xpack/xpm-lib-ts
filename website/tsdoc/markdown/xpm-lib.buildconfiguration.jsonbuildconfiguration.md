@@ -18,7 +18,7 @@ This holds the raw configuration definition as it appears in `package.json`<!-- 
 
 The definition is preserved to:
 
-<ol> <li>Enable external modification (e.g., <code>xpm uninstall</code> updates this directly).</li> <li>Support deferred template evaluation during <code>BuildConfiguration.initialise()</code>.</li> <li>Provide the source for inheritance when other configurations reference this one.</li> <li>Allow re-evaluation with different variable contexts if needed.</li> </ol>
+<ol> <li>Enable external modification (e.g., <code>xpm uninstall</code>  updates this  directly).</li> <li>Support deferred template evaluation during  <code>BuildConfiguration.initialise()</code>.</li> <li>Provide the source for inheritance when other configurations  reference this one.</li> <li>Allow re-evaluation with different variable contexts if needed.</li> </ol>
 
 This immutable storage ensures configurations can be safely referenced during inheritance resolution without side effects.
 

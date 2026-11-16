@@ -28,12 +28,12 @@ This reverse mapping enables retrieving the original action definition from `jso
 
 Mapping behavior:
 
-<ol> <li><b>For regular actions:</b> Maps action name to itself (identity mapping).</li> <li><b>For template actions:</b> Maps each generated action name back to the original template name (e.g., <code>test-x64</code> → <code>test-<!-- -->{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> <li>Enables <code>Actions.get()</code> to locate the correct JSON definition when instantiating an action on demand.</li> </ol>
+<ol> <li><b>For regular actions:</b> Maps action name to itself (identity  mapping).</li> <li><b>For template actions:</b> Maps each generated action name back to  the original template name (e.g.,  <code>test-x64</code> → <code>test-<!-- -->{<!-- -->{ matrix.arch }<!-- -->}</code>).</li> <li>Enables <code>Actions.get()</code> to locate the correct JSON  definition when instantiating an action on demand.</li> </ol>
 
 This indirection is essential for the lazy evaluation pattern, allowing deferred instantiation while maintaining the connection to original definitions.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

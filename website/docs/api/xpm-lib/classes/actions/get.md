@@ -72,12 +72,12 @@ The action instance.
 
 This method implements lazy evaluation to avoid unnecessary operations. Actions are instantiated on demand but remain uninitialised until actually used. The two-step process works as follows:
 
-<ol> <li>During collection initialisation (<code>Actions.initialise()</code>), only the matrix of options is evaluated for each template, expanding only the action names without processing their content.</li> <li>Later, when an action is accessed via this method and subsequently initialised (<code>Action.initialise()</code>), the template is fully evaluated and Liquid substitutions are performed on the commands.</li> </ol>
+<ol> <li>During collection initialisation  (<code>Actions.initialise()</code>),  only the matrix of options is evaluated for each template, expanding  only the action names without processing their content.</li> <li>Later, when an action is accessed via this method and subsequently  initialised (<code>Action.initialise()</code>), the template is  fully evaluated and Liquid substitutions are performed on the  commands.</li> </ol>
 
 This approach ensures that only actions that are actually used incur the cost of template evaluation and variable substitution.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

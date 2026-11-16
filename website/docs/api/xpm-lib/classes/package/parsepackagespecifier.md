@@ -86,16 +86,16 @@ The parsed package specifier components.
 
 npm package specifiers can take several forms:
 
-<ul> <li><b>Unscoped without version:</b> <code>package-name</code></li> <li><b>Unscoped with version:</b> <code>package-name<!-- -->@<!-- -->1.2.3</code></li> <li><b>Scoped without version:</b> <code>@<!-- -->scope/package-name</code></li> <li><b>Scoped with version:</b> <code>@<!-- -->scope/package-name<!-- -->@<!-- -->1.2.3</code></li> </ul>
+<ul> <li><b>Unscoped without version:</b> <code>package-name</code></li> <li><b>Unscoped with version:</b> <code>package-name<!-- -->@<!-- -->1.2.3</code></li> <li><b>Scoped without version:</b> <code>@<!-- -->scope/package-name</code></li> <li><b>Scoped with version:</b>  <code>@<!-- -->scope/package-name<!-- -->@<!-- -->1.2.3</code></li> </ul>
 
 Parsing strategy:
 
-<ol> <li>If specifier starts with <code>@</code>, extract scope and handle scoped format.</li> <li>Split on <code>/</code> to separate scope from name<!-- -->@<!-- -->version.</li> <li>Split the second part on <code>@</code> to separate name from version.</li> <li>For unscoped packages, split directly on <code>@</code> to separate name from version.</li> </ol>
+<ol> <li>If specifier starts with <code>@</code>, extract scope and handle  scoped format.</li> <li>Split on <code>/</code> to separate scope from name<!-- -->@<!-- -->version.</li> <li>Split the second part on <code>@</code> to separate name from  version.</li> <li>For unscoped packages, split directly on <code>@</code> to separate  name from version.</li> </ol>
 
 The parser handles all valid npm package specifier formats and returns structured components for downstream processing. Invalid formats with multiple slashes are rejected.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -18,7 +18,7 @@ This reference maintains the hierarchical relationship between individual action
 
 The parent collection provides access to:
 
-<ol> <li>Liquid templating engine for variable substitution.</li> <li>Substitution variables hierarchy (package metadata, configuration, environment, platform detection).</li> <li>Logger instance for diagnostic output.</li> <li>Build configuration context when actions belong to a specific configuration rather than the package root.</li> </ol>
+<ol> <li>Liquid templating engine for variable substitution.</li> <li>Substitution variables hierarchy (package metadata, configuration,  environment, platform detection).</li> <li>Logger instance for diagnostic output.</li> <li>Build configuration context when actions belong to a specific  configuration rather than the package root.</li> </ol>
 
 This design enables actions to access shared resources without duplicating them, while maintaining proper scoping for template evaluation. During initialisation, the action combines parent-level substitution variables with its own matrix parameters to create a complete context for Liquid template processing.
 

@@ -28,12 +28,12 @@ This comprehensive variable hierarchy provides the base context for all build co
 
 Base hierarchy includes:
 
-<ol> <li><b>Environment variables:</b> <code>env</code> namespace with system environment.</li> <li><b>Platform detection:</b> <code>os</code> namespace with platform-specific values.</li> <li><b>Path utilities:</b> <code>path</code> namespace with path manipulationfunctions.</li> <li><b>Package metadata:</b> <code>package</code> namespace with name, version, dependencies.</li> </ol>
+<ol> <li><b>Environment variables:</b> <code>env</code> namespace with system  environment.</li> <li><b>Platform detection:</b> <code>os</code> namespace with  platform-specific values.</li> <li><b>Path utilities:</b> <code>path</code> namespace with path  manipulationfunctions.</li> <li><b>Package metadata:</b> <code>package</code> namespace with  name, version, dependencies.</li> </ol>
 
 Individual configurations extend this with their own `properties`<!-- -->, `configuration`<!-- -->, and `matrix` namespaces during initialisation.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -18,7 +18,7 @@ This flag ensures idempotent initialization and prevents redundant template eval
 
 State transitions:
 
-<ol> <li>Initially <code>false</code> after construction.</li> <li>Set to <code>true</code> after successful command substitution and evaluation.</li> <li>Checked at the start of <code>Action.initialise()</code> to return early if already initialised.</li> </ol>
+<ol> <li>Initially <code>false</code> after construction.</li> <li>Set to <code>true</code> after successful command substitution and  evaluation.</li> <li>Checked at the start of <code>Action.initialise()</code> to  return early if already initialised.</li> </ol>
 
 This pattern allows safe repeated calls during complex initialization sequences or when actions are accessed multiple times, avoiding the computational cost of re-evaluating templates unnecessarily.
 

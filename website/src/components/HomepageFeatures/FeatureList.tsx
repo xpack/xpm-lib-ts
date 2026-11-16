@@ -22,7 +22,7 @@ export const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/mosaic.svg').default,
     description: (
       <>
-        The module is compatible with <b>TypeScript</b> and <b>JavaScript</b> projects, and may be utilised across multiple platforms (<b>Windows</b>, <b>macOS</b>, <b>GNU/Linux</b>).
+        The module is compatible with <b>TypeScript</b> and <b>JavaScript</b> projects, and may be used across multiple platforms (<b>Windows</b>, <b>macOS</b>, <b>GNU/Linux</b>).
       </>
     ),
   },

@@ -28,12 +28,12 @@ Contains the entire `package.json` content, allowing templates to access package
 
 Common template patterns:
 
-<ul> <li><code>{<!-- -->{ package.name }<!-- -->}</code>: Package name for generated files.</li> <li><code>{<!-- -->{ package.version }<!-- -->}</code>: Version string for documentation.</li> <li><code>{<!-- -->{ package.xpack.properties.key }<!-- -->}</code>: Access xpack properties.</li> </ul>
+<ul> <li><code>{<!-- -->{ package.name }<!-- -->}</code>: Package name for generated  files.</li> <li><code>{<!-- -->{ package.version }<!-- -->}</code>: Version string for  documentation.</li> <li><code>{<!-- -->{ package.xpack.properties.key }<!-- -->}</code>: Access xpack  properties.</li> </ul>
 
 Undefined when processing templates outside of a package context.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

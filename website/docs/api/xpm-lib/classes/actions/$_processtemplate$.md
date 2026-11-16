@@ -89,10 +89,10 @@ This helper method is called during collection initialisation for each action wh
 
 Processing steps:
 
-<ol> <li>Calls <code>\_expandTemplateActions()</code> to generate all action instances from the template's matrix parameters.</li> <li>Validates that each expanded action name is unique and does not conflict with existing actions.</li> <li>Registers each expanded action in the internal maps: <ul> <li><code>\_actionsMap</code>: Maps name to action instance.</li> <li><code>\_jsonActionsNamesMap</code>: Maps expanded name back to original template name.</li> <li><code>\_namesSet</code>: Tracks all registered names for duplicate detection.</li> </ul> </li> </ol>
+<ol> <li>Calls <code>\_expandTemplateActions()</code> to generate all action  instances from the template's matrix parameters.</li> <li>Validates that each expanded action name is unique and does not  conflict with existing actions.</li> <li>Registers each expanded action in the internal maps:  <ul>  <li><code>\_actionsMap</code>: Maps name to action instance.</li>  <li><code>\_jsonActionsNamesMap</code>: Maps expanded name back to  original template name.</li>  <li><code>\_namesSet</code>: Tracks all registered names for  duplicate detection.</li>  </ul> </li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

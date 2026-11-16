@@ -18,7 +18,7 @@ This map serves as the primary configuration registry, populated during collecti
 
 Key characteristics:
 
-<ol> <li>Known only after <code>BuildConfigurations.initialise()</code> completes.</li> <li>Possibly empty if there are no build configurations defined.</li> <li>Values can be <code>undefined</code> to indicate a configuration exists but hasn't been instantiated yet (lazy loading).</li> <li>For template configurations, contains one entry per expanded combination, not the original template definition.</li> </ol>
+<ol> <li>Known only after <code>BuildConfigurations.initialise()</code>  completes.</li> <li>Possibly empty if there are no build configurations defined.</li> <li>Values can be <code>undefined</code> to indicate a configuration  exists but hasn't been instantiated yet (lazy loading).</li> <li>For template configurations, contains one entry per expanded  combination, not the original template definition.</li> </ol>
 
 Configurations transition from `undefined` to instantiated when first accessed via [BuildConfigurations.get()](./xpm-lib.buildconfigurations.get.md)<!-- -->, implementing the lazy evaluation pattern to avoid unnecessary processing.
 

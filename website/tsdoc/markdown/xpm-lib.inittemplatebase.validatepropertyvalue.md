@@ -78,7 +78,7 @@ The validated and potentially converted value (string, boolean, or number).
 
 This method checks whether the provided value is valid for the specified property according to its type definition. It performs type-specific validation and conversion:
 
-<ul> <li><b>For <code>select</code> properties:</b> validates against allowed items andchecks platform compatibility if specified</li> <li><b>For <code>boolean</code> properties:</b> converts <code>'true'</code>/<code>'false'</code> strings to booleans</li> <li><b>For <code>number</code> properties:</b> converts strings to numbers</li> </ul>
+<ul> <li><b>For <code>select</code> properties:</b> validates against  allowed items andchecks platform compatibility if specified</li> <li><b>For <code>boolean</code> properties:</b> converts  <code>'true'</code>/<code>'false'</code>  strings to booleans</li> <li><b>For <code>number</code> properties:</b> converts strings  to numbers</li> </ul>
 
 If the value is empty and a default is defined, the default value is returned. For select properties with platform restrictions, only platform-compatible items are considered valid.
 

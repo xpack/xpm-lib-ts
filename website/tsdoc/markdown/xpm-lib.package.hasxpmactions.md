@@ -23,7 +23,7 @@ This method performs a comprehensive search for action definitions at both the p
 
 Action detection strategy:
 
-<ol> <li>Check for package-level actions in <code>xpack.actions</code>.</li> <li>If no package-level actions, iterate through all build configurations.</li> <li>For each configuration, determine if it's a template (name contains Liquid syntax) or a regular configuration.</li> <li>For templates: Check <code>template.actions</code> for action definitions.</li> <li>For regular configurations: Check <code>actions</code> directly.</li> <li>Return true if any actions are found at any level.</li> </ol>
+<ol> <li>Check for package-level actions in <code>xpack.actions</code>.</li> <li>If no package-level actions, iterate through all build  configurations.</li> <li>For each configuration, determine if it's a template (name contains  Liquid syntax) or a regular configuration.</li> <li>For templates: Check <code>template.actions</code> for action  definitions.</li> <li>For regular configurations: Check <code>actions</code> directly.</li> <li>Return true if any actions are found at any level.</li> </ol>
 
 This comprehensive check is useful for determining whether <b>xpm</b> action commands should be available or whether the package requires <b>xpm</b> for build automation.
 

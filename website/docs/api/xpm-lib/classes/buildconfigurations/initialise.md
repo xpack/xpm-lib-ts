@@ -37,10 +37,10 @@ This method implements the first step of lazy evaluation. It processes all build
 
 Processing steps:
 
-<ol> <li>Return early if already initialised (idempotent behaviour).</li> <li>Iterate through all build configuration definitions from the JSON object.</li> <li>For template configurations (names containing <code>{<!-- -->{</code>): <ul> <li>Call <code>\_processTemplate()</code> to expand and register all generated configurations.</li> </ul> </li> <li>For regular configurations: <ul> <li>Validate uniqueness of the configuration name.</li> <li>Register the configuration in internal maps with <code>undefined</code> value (lazy loading).</li> </ul> </li> <li>Cache the array of all configuration names for efficient repeated access.</li> </ol>
+<ol> <li>Return early if already initialised (idempotent behaviour).</li> <li>Iterate through all build configuration definitions from the JSON  object.</li> <li>For template configurations (names containing <code>{<!-- -->{</code>):  <ul>  <li>Call <code>\_processTemplate()</code> to expand and register all  generated configurations.</li>  </ul> </li> <li>For regular configurations:  <ul>  <li>Validate uniqueness of the configuration name.</li>  <li>Register the configuration in internal maps with  <code>undefined</code> value (lazy loading).</li>  </ul> </li> <li>Cache the array of all configuration names for efficient repeated  access.</li> </ol>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

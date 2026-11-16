@@ -60,7 +60,7 @@ This function provides explicit Windows path sanitization regardless of the curr
 
 Processing rules:
 
-<ul> <li>Preserves backslashes (<code>\\</code>) for path separators.</li> <li>Preserves colons (<code>:</code>) for drive letter designation (e.g., <code>C:</code>).</li> <li>Replaces all other non-alphanumeric characters with dashes.</li> <li>Collapses consecutive dashes to single dashes.</li> </ul>
+<ul> <li>Preserves backslashes (<code>\\</code>) for path separators.</li> <li>Preserves colons (<code>:</code>) for drive letter designation (e.g.,  <code>C:</code>).</li> <li>Replaces all other non-alphanumeric characters with dashes.</li> <li>Collapses consecutive dashes to single dashes.</li> </ul>
 
 Use this function instead of [filterPath()](./xpm-lib.filterpath.md) when you need guaranteed Windows-style sanitization even when running on POSIX systems, such as when generating paths for remote Windows systems or WSL environments.
 

@@ -28,7 +28,7 @@ Build configurations are initialised lazily and may inherit properties, dependen
 
 A configuration can exist in three states:
 
-<ol> <li><b>Undefined:</b> Name is known but instance not yet created.</li> <li><b>Instantiated:</b> Object exists but not yet fully processed.</li> <li><b>Initialised:</b> Inheritance resolved, properties evaluated, dependencies substituted, and actions prepared.</li> </ol>
+<ol> <li><b>Undefined:</b> Name is known but instance not yet created.</li> <li><b>Instantiated:</b> Object exists but not yet fully processed.</li> <li><b>Initialised:</b> Inheritance resolved, properties evaluated,  dependencies substituted, and actions prepared.</li> </ol>
 
 Inheritance is processed recursively with circular reference detection. Later inherited properties override earlier ones, and local properties override all inherited ones. Dependencies and actions are merged from all inherited configurations.
 
@@ -582,6 +582,6 @@ Completes the async initialisation of the build configuration.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

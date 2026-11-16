@@ -18,5 +18,5 @@ This function is invoked for each combination generated during template expansio
 
 The callback is responsible for:
 
-<ol> <li>Creating the appropriate instance type (e.g., <code>Action</code> or <code>BuildConfiguration</code>).</li> <li>Passing the expanded name to the instance constructor.</li> <li>Storing the matrix parameters for later template evaluation.</li> <li>Associating the template content with the instance.</li> </ol>
+<ol> <li>Creating the appropriate instance type (e.g., <code>Action</code> or  <code>BuildConfiguration</code>).</li> <li>Passing the expanded name to the instance constructor.</li> <li>Storing the matrix parameters for later template evaluation.</li> <li>Associating the template content with the instance.</li> </ol>
 

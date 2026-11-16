@@ -19,7 +19,7 @@ This drop exposes properties to the Liquid engine and performs additional substi
 
 Implements the Liquid Drop pattern to provide lazy property resolution and recursive template evaluation. When a template accesses `properties.foo`<!-- -->, the Liquid engine calls [LiquidPropertiesDrop.liquidMethodMissing()](./xpm-lib.liquidpropertiesdrop.liquidmethodmissing.md) which:
 
-<ol> <li>Looks up the property value in the properties map.</li> <li>Checks if the value contains Liquid syntax (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>).</li> <li>If yes, recursively evaluates the value as a Liquid template.</li> <li>Returns the final resolved value.</li> </ol>
+<ol> <li>Looks up the property value in the properties map.</li> <li>Checks if the value contains Liquid syntax  (<code>{<!-- -->{</code> or <code>{<!-- -->%</code>).</li> <li>If yes, recursively evaluates the value as a Liquid template.</li> <li>Returns the final resolved value.</li> </ol>
 
 This enables multi-level property references where one property can reference another, which can reference yet another, with the engine automatically resolving the entire chain.
 

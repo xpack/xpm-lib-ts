@@ -29,7 +29,7 @@ The matrix defines parameter arrays used to generate multiple template variants 
 
 Matrix expansion rules:
 
-<ul> <li>Each parameter array is combined with all others to create every possible combination.</li> <li>Matrix values are accessible in template names and template content via <code>{<!-- -->{ matrix.parameterName }<!-- -->}</code> Liquid syntax.</li> <li>The number of generated template variants equals the product of all array lengths.</li> </ul>
+<ul> <li>Each parameter array is combined with all others to create every  possible combination.</li> <li>Matrix values are accessible in template names and template  content via <code>{<!-- -->{ matrix.parameterName }<!-- -->}</code> Liquid  syntax.</li> <li>The number of generated template variants equals the product of all  array lengths.</li> </ul>
 
 Example:
 
@@ -43,6 +43,6 @@ This generates 4 template variants (2 × 2): `linux-x64`<!-- -->, `linux-arm64`<
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

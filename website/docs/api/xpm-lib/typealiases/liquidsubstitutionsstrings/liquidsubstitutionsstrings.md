@@ -28,12 +28,12 @@ Values can be strings for simple substitutions or arrays for multi-line content.
 
 Common use cases:
 
-<ul> <li><b>Properties:</b> User-defined configuration values from <code>xpack.properties.</code></li> <li><b>Matrix parameters:</b> Template expansion variables from <code>matrix</code> definitions.</li> <li><b>Configuration data:</b> Build-specific settings and metadata.</li> </ul>
+<ul> <li><b>Properties:</b> User-defined configuration values from  <code>xpack.properties.</code></li> <li><b>Matrix parameters:</b> Template expansion variables from  <code>matrix</code> definitions.</li> <li><b>Configuration data:</b> Build-specific settings and metadata.</li> </ul>
 
 Templates access these values via namespaces like `properties.foo`<!-- -->, `matrix.arch`<!-- -->, etc., with the Liquid Drop pattern providing lazy evaluation and nested substitution support.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

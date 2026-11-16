@@ -18,7 +18,7 @@ This object contains the final merged dependencies after inheritance resolution 
 
 Dependency resolution workflow:
 
-<ol> <li>Start with empty object.</li> <li>Merge <code>dependencies</code> from each inherited configuration in sequence (later overrides earlier).</li> <li>Merge local <code>dependencies</code> from JSON definition.</li> <li>Perform Liquid template substitution on the entire <code>dependencies</code> object with full configuration context (properties, matrix, etc.).</li> </ol>
+<ol> <li>Start with empty object.</li> <li>Merge <code>dependencies</code> from each inherited configuration  in sequence  (later overrides earlier).</li> <li>Merge local <code>dependencies</code> from JSON definition.</li> <li>Perform Liquid template substitution on the entire  <code>dependencies</code>  object with full configuration context (properties, matrix, etc.).</li> </ol>
 
 This enables configuration-specific dependencies with dynamic version ranges or package selection based on matrix parameters, platform detection, or configuration properties.
 

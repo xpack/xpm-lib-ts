@@ -18,7 +18,7 @@ This path serves as the base folder for all package operations, including readin
 
 Path requirements:
 
-<ol> <li>Must be an absolute path to a folder.</li> <li>Folder should contain (or will contain) a <code>package.json</code> file.</li> <li>Used to construct the path to <code>package.json</code> as <code>{<!-- -->packageFolderPath<!-- -->}<!-- -->/package.json</code>.</li> <li>Remains constant throughout the lifecycle of the <code>Package</code> instance.</li> </ol>
+<ol> <li>Must be an absolute path to a folder.</li> <li>Folder should contain (or will contain) a <code>package.json</code>  file.</li> <li>Used to construct the path to <code>package.json</code> as  <code>{<!-- -->packageFolderPath<!-- -->}<!-- -->/package.json</code>.</li> <li>Remains constant throughout the lifecycle of the  <code>Package</code> instance.</li> </ol>
 
 The path is set during construction and used by all methods that access or modify `package.json`<!-- -->.
 

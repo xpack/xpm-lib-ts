@@ -92,12 +92,12 @@ This method orchestrates the template expansion process by validating the matrix
 
 Processing steps:
 
-<ol> <li>Processes the matrix to extract and validate parameter keys and values.</li> <li>Generates all combinations using the Cartesian product.</li> <li>For each combination: <ol> <li>Performs Liquid substitution on the template name with matrix parameters.</li> <li>Invokes the factory callback to create an instance.</li> <li>Stores the instance in the result map.</li> </ol> </li> </ol>
+<ol> <li>Processes the matrix to extract and validate parameter keys and  values.</li> <li>Generates all combinations using the Cartesian product.</li> <li>For each combination:  <ol>  <li>Performs Liquid substitution on the template name with matrix  parameters.</li>  <li>Invokes the factory callback to create an instance.</li>  <li>Stores the instance in the result map.</li>  </ol> </li> </ol>
 
 The factory callback is responsible for creating the appropriate instance type and associating it with the expanded name and matrix parameters.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

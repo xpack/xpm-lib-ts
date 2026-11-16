@@ -18,7 +18,7 @@ This array contains the fully evaluated command lines ready for execution, with 
 
 Lifecycle states:
 
-<ol> <li>Undefined initially and until <code>Action.initialise()</code> is called.</li> <li>Populated during initialisation by evaluating <code>jsonAction</code> with the Liquid engine and complete variable context.</li> <li>Array-based JSON definitions are joined, substituted, then split back into individual command lines.</li> <li>Each string represents one command line to be executed sequentially.</li> </ol>
+<ol> <li>Undefined initially and until <code>Action.initialise()</code>  is called.</li> <li>Populated during initialisation by evaluating  <code>jsonAction</code> with the  Liquid engine and complete variable context.</li> <li>Array-based JSON definitions are joined, substituted, then split back  into individual command lines.</li> <li>Each string represents one command line to be executed  sequentially.</li> </ol>
 
 Attempting to access via the `commands` getter before initialisation will trigger an assertion error, enforcing correct usage order.
 

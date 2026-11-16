@@ -28,12 +28,12 @@ This set tracks the inheritance chain being processed to detect and prevent circ
 
 Detection mechanism:
 
-<ol> <li>Initially empty when configuration initialisation begins.</li> <li>Each inherited configuration name is added before processing that configuration's inheritance.</li> <li>If a configuration attempts to inherit from a name already in the set, a circular reference exists.</li> <li>Circular references trigger <code>InputError</code> with details about the problematic inheritance chain.</li> </ol>
+<ol> <li>Initially empty when configuration initialisation begins.</li> <li>Each inherited configuration name is added before processing that  configuration's inheritance.</li> <li>If a configuration attempts to inherit from a name already in the  set, a circular reference exists.</li> <li>Circular references trigger <code>InputError</code> with details about the problematic inheritance chain.</li> </ol>
 
 Example: If config A inherits from B, B from C, and C from A, the circular dependency is detected when C attempts to inherit from A.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

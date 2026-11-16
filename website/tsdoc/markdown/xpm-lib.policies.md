@@ -22,7 +22,7 @@ Policy versioning allows <b>xpm</b> to evolve its behavior while maintaining bac
 
 This approach ensures that:
 
-<ol> <li>Existing packages continue to work with newer <b>xpm</b> versions without modification.</li> <li>New packages can opt into modern behavior by specifying a recent minimumXpmRequired.</li> <li>Breaking changes are tied to explicit version declarations rather than <b>xpm</b> installation version.</li> </ol>
+<ol> <li>Existing packages continue to work with newer <b>xpm</b> versions without  modification.</li> <li>New packages can opt into modern behavior by specifying a recent  minimumXpmRequired.</li> <li>Breaking changes are tied to explicit version declarations rather than  <b>xpm</b> installation version.</li> </ol>
 
 Policy flags are evaluated once during initialization and cached for the duration of the operation.
 

@@ -28,7 +28,7 @@ This class computes the Cartesian product of multiple parameter arrays, producin
 
 The generation process:
 
-<ol> <li>Takes arrays of parameter names (keys) and their corresponding value arrays.</li> <li>Recursively iterates through each parameter, selecting one value at a time.</li> <li>Yields complete combinations one at a time without storing them all in memory.</li> <li>Backtracks to explore other value combinations.</li> </ol>
+<ol> <li>Takes arrays of parameter names (keys) and their corresponding value  arrays.</li> <li>Recursively iterates through each parameter, selecting one value at a  time.</li> <li>Yields complete combinations one at a time without storing them all  in memory.</li> <li>Backtracks to explore other value combinations.</li> </ol>
 
 Example usage:
 
@@ -252,6 +252,6 @@ Generates combinations one at a time using a generator pattern.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

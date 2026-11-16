@@ -28,12 +28,12 @@ This map serves as the primary configuration registry, populated during collecti
 
 Key characteristics:
 
-<ol> <li>Known only after <code>BuildConfigurations.initialise()</code> completes.</li> <li>Possibly empty if there are no build configurations defined.</li> <li>Values can be <code>undefined</code> to indicate a configuration exists but hasn't been instantiated yet (lazy loading).</li> <li>For template configurations, contains one entry per expanded combination, not the original template definition.</li> </ol>
+<ol> <li>Known only after <code>BuildConfigurations.initialise()</code>  completes.</li> <li>Possibly empty if there are no build configurations defined.</li> <li>Values can be <code>undefined</code> to indicate a configuration  exists but hasn't been instantiated yet (lazy loading).</li> <li>For template configurations, contains one entry per expanded  combination, not the original template definition.</li> </ol>
 
 Configurations transition from `undefined` to instantiated when first accessed via [BuildConfigurations.get()](/xpm-lib-ts/docs/api/xpm-lib/classes/buildconfigurations/get)<!-- -->, implementing the lazy evaluation pattern to avoid unnecessary processing.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

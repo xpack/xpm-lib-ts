@@ -30,12 +30,12 @@ Each string represents a complete command to be executed in sequence. Commands a
 
 The array structure enables:
 
-<ul> <li><b>Multi-step actions:</b> Execute multiple commands in order.</li> <li><b>Error handling:</b> Stop execution on first command failure (default behavior).</li> <li><b>Logging:</b> Report progress as each command completes.</li> </ul>
+<ul> <li><b>Multi-step actions:</b> Execute multiple commands in order.</li> <li><b>Error handling:</b> Stop execution on first command failure (default  behavior).</li> <li><b>Logging:</b> Report progress as each command completes.</li> </ul>
 
 Commands have access to the full shell environment and can reference environment variables, pipe outputs, or chain operations using standard shell syntax (`&&`<!-- -->, `||`<!-- -->, `|`<!-- -->, etc.).
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

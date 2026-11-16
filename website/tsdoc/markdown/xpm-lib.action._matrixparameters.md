@@ -18,7 +18,7 @@ For template-generated actions, this object contains the specific matrix paramet
 
 Usage pattern:
 
-<ol> <li>Undefined for regular (non-template) actions.</li> <li>For template actions, contains key-value pairs from the matrix combination (e.g., <code>{ arch: 'x64', platform: 'linux' }</code>).</li> <li>Merged into substitution variables during <code>Action.initialise()</code>, making values accessible via the <code>matrix</code> namespace in command templates.</li> <li>Enables the same command template to generate different concrete commands for each matrix combination.</li> </ol>
+<ol> <li>Undefined for regular (non-template) actions.</li> <li>For template actions, contains key-value pairs from the matrix  combination (e.g.,  <code>{ arch: 'x64', platform: 'linux' }</code>).</li> <li>Merged into substitution variables during  <code>Action.initialise()</code>, making values accessible via the  <code>matrix</code> namespace in command templates.</li> <li>Enables the same command template to generate different concrete  commands for each matrix combination.</li> </ol>
 
 Example: A template with `{{ matrix.arch }}` becomes `x64` when this action's matrix parameters include `{ arch: 'x64' }`<!-- -->.
 

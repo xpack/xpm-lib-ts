@@ -18,7 +18,7 @@ This is the final, expanded configuration name used for identification and selec
 
 The name is used for:
 
-<ol> <li>User-facing identification when listing or selecting configurations.</li> <li><b>Build folder path generation (default:</b> <code>build/<!-- -->{<!-- -->name<!-- -->}</code>).</li> <li>Logging and diagnostic output to track configuration lifecycle.</li> <li>Inheritance references from other configurations.</li> </ol>
+<ol> <li>User-facing identification when listing or selecting  configurations.</li> <li><b>Build folder path generation (default:</b>  <code>build/<!-- -->{<!-- -->name<!-- -->}</code>).</li> <li>Logging and diagnostic output to track configuration lifecycle.</li> <li>Inheritance references from other configurations.</li> </ol>
 
 Names must be unique within the configurations collection, enforced during [BuildConfigurations.initialise()](./xpm-lib.buildconfigurations.initialise.md)<!-- -->.
 

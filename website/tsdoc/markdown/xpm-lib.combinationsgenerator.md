@@ -18,7 +18,7 @@ This class computes the Cartesian product of multiple parameter arrays, producin
 
 The generation process:
 
-<ol> <li>Takes arrays of parameter names (keys) and their corresponding value arrays.</li> <li>Recursively iterates through each parameter, selecting one value at a time.</li> <li>Yields complete combinations one at a time without storing them all in memory.</li> <li>Backtracks to explore other value combinations.</li> </ol>
+<ol> <li>Takes arrays of parameter names (keys) and their corresponding value  arrays.</li> <li>Recursively iterates through each parameter, selecting one value at a  time.</li> <li>Yields complete combinations one at a time without storing them all  in memory.</li> <li>Backtracks to explore other value combinations.</li> </ol>
 
 Example usage:
 

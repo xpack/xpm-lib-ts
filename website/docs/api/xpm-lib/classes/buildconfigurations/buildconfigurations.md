@@ -28,7 +28,7 @@ This class manages build configurations defined in package metadata, including t
 
 Configuration lifecycle phases:
 
-<ol> <li><b>Construction:</b> Basic setup without processing configurations.</li> <li><b>Initialisation:</b> Template name expansion without content evaluation.</li> <li><b>Retrieval:</b> On-demand instantiation when accessed via <code>get()</code>.</li> <li><b>Configuration Initialisation:</b> Full processing including inheritance, property resolution, dependency substitution, and action preparation.</li> </ol>
+<ol> <li><b>Construction:</b> Basic setup without processing configurations.</li> <li><b>Initialisation:</b> Template name expansion without content  evaluation.</li> <li><b>Retrieval:</b> On-demand instantiation when accessed via  <code>get()</code>.</li> <li><b>Configuration Initialisation:</b> Full processing including  inheritance, property resolution, dependency substitution, and  action preparation.</li> </ol>
 
 This lazy evaluation strategy ensures that only configurations actually used incur the cost of template evaluation, inheritance resolution, and variable substitution.
 
@@ -501,6 +501,6 @@ Determines whether a build configuration is hidden.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

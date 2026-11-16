@@ -76,12 +76,12 @@ The constructor evaluates each policy flag by comparing the provided minimum ver
 
 Evaluation process:
 
-<ol> <li>Validate that <code>minVersion</code> is a valid semver string.</li> <li>If invalid, retain default values (all flags false = modern behavior).</li> <li>For each policy, use <code>semver.lt()</code> to check if <code>minVersion</code> is less than the threshold version.</li> <li>If <code>minVersion</code> &lt; threshold, enable legacy behavior (flag = <code>true</code>).</li> <li>If <code>minVersion</code> &gt;<!-- -->= threshold, use modern behavior (flag = <code>false</code>).</li> </ol>
+<ol> <li>Validate that <code>minVersion</code> is a valid semver string.</li> <li>If invalid, retain default values (all flags false = modern behavior).</li> <li>For each policy, use <code>semver.lt()</code> to check if  <code>minVersion</code> is less than  the threshold version.</li> <li>If <code>minVersion</code> &lt; threshold, enable legacy behavior  (flag = <code>true</code>).</li> <li>If <code>minVersion</code> &gt;<!-- -->= threshold, use modern behavior  (flag = <code>false</code>).</li> </ol>
 
 This ensures that packages explicitly declaring their minimum version get the behavior that was current at that version, while packages without a valid minimum version default to the most modern behavior.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

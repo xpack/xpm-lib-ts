@@ -28,12 +28,12 @@ This object contains the final merged development dependencies after inheritance
 
 Resolution workflow mirrors `dependencies`<!-- -->:
 
-<ol> <li>Start with empty object.</li> <li>Merge <code>devDependencies</code> from each inherited configuration in sequence (later overrides earlier).</li> <li>Merge local <code>devDependencies</code> from JSON definition.</li> <li>Perform Liquid template substitution on the entire <code>devDependencies</code> object with full configuration context.</li> </ol>
+<ol> <li>Start with empty object.</li> <li>Merge <code>devDependencies</code> from each inherited configuration  in sequence  (later overrides earlier).</li> <li>Merge local <code>devDependencies</code> from JSON definition.</li> <li>Perform Liquid template substitution on the entire  <code>devDependencies</code>  object with full configuration context.</li> </ol>
 
 Typical use: Test frameworks, build tools, or debugging utilities specific to certain configurations (e.g., debug builds might include additional analysis tools).
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -18,7 +18,7 @@ This set provides O(1) existence checks for action names, enabling efficient val
 
 Key characteristics:
 
-<ol> <li>Known only after <code>Actions.initialise()</code> completes.</li> <li>Contains all action names including those generated from templates.</li> <li>Used to detect duplicate action names that might arise from template expansion conflicts or explicit duplicates in <code>package.json</code>.</li> </ol>
+<ol> <li>Known only after <code>Actions.initialise()</code>  completes.</li> <li>Contains all action names including those generated from  templates.</li> <li>Used to detect duplicate action names that might arise from template  expansion conflicts or explicit duplicates in  <code>package.json</code>.</li> </ol>
 
 This redundant storage (alongside `_actionsMap`<!-- -->) is justified by the performance benefit for name existence checks, especially in packages with many actions.
 

@@ -18,7 +18,7 @@ The `xpack` section extends standard npm `package.json` with xpm-specific metada
 
 Key capabilities:
 
-<ul> <li><b>Binary packages:</b> Define platform-specific binary distributions with download URLs, checksums, and installation configuration.</li> <li><b>Build configurations:</b> Organize multiple build targets (debug, release, platform variants) with inherited properties and dependencies.</li> <li><b>Actions:</b> Define build automation commands that can reference properties and build configuration context via Liquid templates.</li> <li><b>Properties:</b> User-defined configuration values accessible throughout the package via template substitution.</li> <li><b>Version requirements:</b> Specify minimum <b>xpm</b> version for feature compatibility and policy enforcement.</li> </ul>
+<ul> <li><b>Binary packages:</b> Define platform-specific binary distributions  with download URLs, checksums, and installation configuration.</li> <li><b>Build configurations:</b> Organize multiple build targets (debug,  release,  platform variants) with inherited properties and dependencies.</li> <li><b>Actions:</b> Define build automation commands that can reference  properties and build configuration context via Liquid templates.</li> <li><b>Properties:</b> User-defined configuration values accessible  throughout the package via template substitution.</li> <li><b>Version requirements:</b> Specify minimum <b>xpm</b> version for  feature compatibility and policy enforcement.</li> </ul>
 
 The `xpack` section is optional in npm packages but required for packages using xpm-specific features like build configurations or binary distributions.
 

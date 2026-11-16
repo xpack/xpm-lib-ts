@@ -18,7 +18,7 @@ This class encapsulates platform and architecture detection logic, providing a m
 
 Key features:
 
-<ol> <li><b>Dependency injection:</b> Accepts a custom process object via constructor, enabling test environments to inject mock process implementations.</li> <li><b>Architecture coercion:</b> Provides optional 64-bit to 32-bit architecture mapping for backward compatibility scenarios.</li> <li><b>Consistent interface:</b> Returns standardised [PlatformInfo](./xpm-lib.platforminfo.md) objects for use throughout the xPack library.</li> </ol>
+<ol> <li><b>Dependency injection:</b> Accepts a custom process object via  constructor, enabling test environments to inject mock process  implementations.</li> <li><b>Architecture coercion:</b> Provides optional 64-bit to 32-bit  architecture mapping for backward compatibility scenarios.</li> <li><b>Consistent interface:</b> Returns standardised  [PlatformInfo](./xpm-lib.platforminfo.md) objects for use throughout the xPack library.</li> </ol>
 
 This abstraction eliminates direct <code>process.platform</code> and <code>process.arch</code> access in business logic, making platform-specific code paths testable via mocked platform information.
 

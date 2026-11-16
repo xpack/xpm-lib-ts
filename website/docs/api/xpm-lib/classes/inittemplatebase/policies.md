@@ -26,10 +26,10 @@ policies: Policies;
 
 Stores the [Policies](/xpm-lib-ts/docs/api/xpm-lib/classes/policies) instance supplied via the constructor. It is consulted in [InitTemplateBase.run()](/xpm-lib-ts/docs/api/xpm-lib/classes/inittemplatebase/run) to determine which substitution variable layout to build:
 
-<ul> <li>Legacy layout (<code>Policies.topPropertiesXpmInitTemplate</code> is <code>true</code>): configuration properties are spread at the top level of <code>substitutionsVariables</code>.</li> <li>Modern layout (<code>false</code>): configuration properties are placed under <code>substitutionsVariables.matrix</code>, and base variables from <code>liquidSubstitutionsVariablesBase</code> populate <code>substitutionsVariables.properties</code>.</li> </ul>
+<ul> <li>Legacy layout (<code>Policies.topPropertiesXpmInitTemplate</code>  is <code>true</code>): configuration properties are spread at the top  level of <code>substitutionsVariables</code>.</li> <li>Modern layout (<code>false</code>): configuration properties are  placed under <code>substitutionsVariables.matrix</code>, and  base variables from  <code>liquidSubstitutionsVariablesBase</code> populate  <code>substitutionsVariables.properties</code>.</li> </ul>
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

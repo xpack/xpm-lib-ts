@@ -18,7 +18,7 @@ This reference provides access to process properties including standard I/O stre
 
 Usage within the template:
 
-<ol> <li>Platform detection via <code>process.platform</code> and <code>process.arch</code> for platform-specific property validation.</li> <li>TTY detection via <code>stdin.isTTY</code> and <code>stdout.isTTY</code> to determine whether interactive prompting is possible.</li> <li>Standard I/O access for interactive user prompts and diagnostic output.</li> </ol>
+<ol> <li>Platform detection via <code>process.platform</code> and  <code>process.arch</code> for  platform-specific property validation.</li> <li>TTY detection via <code>stdin.isTTY</code> and  <code>stdout.isTTY</code> to determine  whether interactive prompting is possible.</li> <li>Standard I/O access for interactive user prompts and diagnostic  output.</li> </ol>
 
 Defaults to the global Node.js <code>process</code> object when not explicitly provided in the constructor, enabling normal runtime behaviour whilst allowing test environments to inject controlled process implementations.
 

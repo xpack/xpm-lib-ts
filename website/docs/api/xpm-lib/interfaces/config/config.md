@@ -32,7 +32,7 @@ Configuration lifecycle:
 
 Key configuration patterns:
 
-<ul> <li><b>Force mode (<code>doForce: true</code>):</b> Bypasses safety checks like "already installed" or "files exist". Use with caution as it can overwrite data.</li> <li><b>Dry run (<code>isDryRun: true</code>):</b> Simulates operations without making changes, useful for testing or previewing actions.</li> </ul>
+<ul> <li><b>Force mode (<code>doForce: true</code>):</b> Bypasses safety checks  like "already  installed" or "files exist". Use with caution as it can overwrite  data.</li> <li><b>Dry run (<code>isDryRun: true</code>):</b> Simulates operations  without making changes,  useful for testing or previewing actions.</li> </ul>
 
 The extensible design (additional properties allowed) supports future configuration options without breaking changes.
 
@@ -158,6 +158,6 @@ _(Optional)_ The properties map used for substitutions.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

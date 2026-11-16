@@ -18,7 +18,7 @@ This flag prevents redundant initialisation and ensures idempotent behavior when
 
 State transitions:
 
-<ol> <li>Initially <code>false</code> after construction.</li> <li>Set to <code>true</code> after successful template expansion and configuration name registration.</li> <li>Checked at the beginning of <code>BuildConfigurations.initialise()</code> to return early if already initialised.</li> </ol>
+<ol> <li>Initially <code>false</code> after construction.</li> <li>Set to <code>true</code> after successful template expansion  and configuration  name registration.</li> <li>Checked at the beginning of  <code>BuildConfigurations.initialise()</code> to return early if  already initialised.</li> </ol>
 
 This pattern supports safe repeated calls during complex initialisation sequences without duplicating work or corrupting internal state.
 

@@ -28,12 +28,12 @@ For template-generated configurations, this object contains the specific matrix 
 
 Usage pattern:
 
-<ol> <li>Undefined for regular (non-template) configurations.</li> <li>For template configurations, contains key-value pairs from the matrix combination (e.g., <code>{ arch: 'x64', optimize: 'speed' }</code>).</li> <li>Merged into substitution variables during initialisation, making values accessible via the <code>matrix</code> namespace throughout the configuration.</li> <li>Used in configuration name substitution, property values, dependencies, and action commands.</li> </ol>
+<ol> <li>Undefined for regular (non-template) configurations.</li> <li>For template configurations, contains key-value pairs from the matrix  combination (e.g.,  <code>{ arch: 'x64', optimize: 'speed' }</code>).</li> <li>Merged into substitution variables during initialisation, making  values accessible via the <code>matrix</code> namespace throughout the  configuration.</li> <li>Used in configuration name substitution, property values,  dependencies, and action commands.</li> </ol>
 
 Example: A template `release-{{ matrix.arch }}` with matrix parameters `{ arch: 'x64' }` becomes the concrete configuration `release-x64`<!-- -->.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

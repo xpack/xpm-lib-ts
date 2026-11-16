@@ -21,7 +21,7 @@ This method yields combinations one at a time instead of building the entire arr
 
 Memory efficiency:
 
-<ul> <li>For a matrix with 10 parameters and 5 values each (9,765,625 combinations), only one combination object exists in memory at a time, regardless of matrix size.</li> <li>No array allocation or storage required.</li> <li>Immediate processing of each combination without waiting for all to be generated.</li> </ul>
+<ul> <li>For a matrix with 10 parameters and 5 values each (9,765,625  combinations), only one combination object exists in memory at a  time, regardless of matrix size.</li> <li>No array allocation or storage required.</li> <li>Immediate processing of each combination without waiting for all to  be generated.</li> </ul>
 
 Example usage:
 

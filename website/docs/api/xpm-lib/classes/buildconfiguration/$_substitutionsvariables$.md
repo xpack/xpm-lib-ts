@@ -28,12 +28,12 @@ This extended variable hierarchy combines the base collection variables with con
 
 Extension hierarchy:
 
-<ol> <li>Starts with parent collection's base variables (env, os, path, package).</li> <li>Extended with <code>properties</code>: Merged from inheritance chain and local properties.</li> <li>Extended with <code>matrix</code>: Parameter values for template-generated configurations.</li> <li>Extended with <code>configuration</code>: The configuration object itself (name, dependencies, properties) accessible for self-reference.</li> </ol>
+<ol> <li>Starts with parent collection's base variables (env, os, path,  package).</li> <li>Extended with <code>properties</code>: Merged from inheritance  chain and local  properties.</li> <li>Extended with <code>matrix</code>: Parameter values for  template-generated  configurations.</li> <li>Extended with <code>configuration</code>: The configuration  object itself  (name, dependencies, properties) accessible for self-reference.</li> </ol>
 
 This complete context is used for all substitutions within the configuration: properties, dependencies, devDependencies, and actions.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

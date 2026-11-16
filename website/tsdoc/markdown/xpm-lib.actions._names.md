@@ -18,7 +18,7 @@ This array provides O(1) access to action names without repeatedly creating new 
 
 Key characteristics:
 
-<ol> <li>Empty initially after construction.</li> <li>Populated during <code>Actions.initialise()</code> after all action names are determined.</li> <li>Contains all action names including those generated from templates.</li> <li>Returned by the <code>names</code> getter for efficient repeated access.</li> </ol>
+<ol> <li>Empty initially after construction.</li> <li>Populated during <code>Actions.initialise()</code> after all  action names  are determined.</li> <li>Contains all action names including those generated from  templates.</li> <li>Returned by the <code>names</code> getter for efficient repeated  access.</li> </ol>
 
 This cached approach avoids the overhead of calling `Array.from(map.keys())` on every access whilst still providing a clean getter interface.
 

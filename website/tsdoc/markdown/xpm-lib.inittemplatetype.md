@@ -16,5 +16,5 @@ export type InitTemplateType = 'select' | 'string' | 'number' | 'boolean';
 
 Property types control how the `xpm init` command prompts users for configuration values during template initialisation:
 
-<ul> <li><b><code>select</code>:</b> Presents a list of predefined options for the user to choose from. Requires the <code>items</code> field to be populated.</li> <li><b><code>string</code>:</b> Accepts free-form text input from the user.</li> <li><b><code>number</code>:</b> Accepts numeric input with validation.</li> <li><b><code>boolean</code>:</b> Accepts yes/no input, converted to <code>true</code> or <code>false</code>.</li> </ul>
+<ul> <li><b><code>select</code>:</b> Presents a list of predefined options  for the user to choose from. Requires the <code>items</code> field to  be populated.</li> <li><b><code>string</code>:</b> Accepts free-form text input from the  user.</li> <li><b><code>number</code>:</b> Accepts numeric input with  validation.</li> <li><b><code>boolean</code>:</b> Accepts yes/no input, converted to  <code>true</code> or <code>false</code>.</li> </ul>
 

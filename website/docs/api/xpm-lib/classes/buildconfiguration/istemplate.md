@@ -28,12 +28,12 @@ This flag determines the substitution strategy during configuration initialisati
 
 Template vs regular configuration processing:
 
-<ol> <li>Template configurations (<code>isTemplate === true</code>): <ul> <li>Entire JSON configuration is stringified and substituted.</li> <li>Matrix parameters available throughout all fields.</li> <li>More expensive but supports matrix references anywhere.</li> </ul> </li> <li>Regular configurations (<code>isTemplate === false</code>): <ul> <li>Only <code>inherits</code> field is substituted initially.</li> <li>Other fields processed selectively during inheritance resolution.</li> <li>More efficient for configurations without matrix parameters.</li> </ul> </li> </ol>
+<ol> <li>Template configurations (<code>isTemplate === true</code>):  <ul>  <li>Entire JSON configuration is stringified and substituted.</li>  <li>Matrix parameters available throughout all fields.</li>  <li>More expensive but supports matrix references anywhere.</li>  </ul> </li> <li>Regular configurations (<code>isTemplate === false</code>):  <ul>  <li>Only <code>inherits</code> field is substituted initially.</li>  <li>Other fields processed selectively during inheritance  resolution.</li>  <li>More efficient for configurations without matrix parameters.</li>  </ul> </li> </ol>
 
 Set to `true` when `templateBuildConfigurationName` is defined, indicating the configuration was generated from a template expansion.
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

@@ -18,7 +18,7 @@ This class prepares substitution variables, creates the Liquid engine, and expos
 
 The package processor serves as the top-level coordinator for all Liquid-based template processing in an <b>xpm</b> package. It establishes the foundation for variable substitution throughout the package hierarchy:
 
-<ol> <li>Initializes base substitution variables (platform detection, system information, etc.).</li> <li>Adds package-specific variables from <code>package.json</code> metadata.</li> <li>Merges user-defined properties from <code>xpack.properties</code>.</li> <li>Creates package-level actions accessible across all contexts.</li> <li>Creates build configurations, each inheriting the base substitution context and adding configuration-specific variables.</li> </ol>
+<ol> <li>Initializes base substitution variables (platform detection, system  information, etc.).</li> <li>Adds package-specific variables from <code>package.json</code>  metadata.</li> <li>Merges user-defined properties from <code>xpack.properties</code>.</li> <li>Creates package-level actions accessible across all contexts.</li> <li>Creates build configurations, each inheriting the base substitution  context and adding configuration-specific variables.</li> </ol>
 
 This hierarchical structure ensures that templates at any level have access to appropriate variables while maintaining clear scoping rules. Package-level actions are available globally, while configuration-level actions are scoped to their respective configurations.
 

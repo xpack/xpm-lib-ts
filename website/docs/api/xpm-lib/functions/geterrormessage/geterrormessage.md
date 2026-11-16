@@ -70,7 +70,7 @@ This utility handles error values of any type, extracting the message property f
 
 TypeScript's catch clause types errors as `unknown` for safety, since JavaScript allows throwing any value (not just `Error` instances). This function provides a type-safe way to extract a message string:
 
-<ul> <li><b>For Error instances:</b> Returns the <code>message</code> property.</li> <li><b>For other types:</b> Converts to string using <code>String()</code>, which handles primitives, objects with <code>toString()</code>, <code>null</code>, and <code>undefined</code> gracefully.</li> </ul>
+<ul> <li><b>For Error instances:</b> Returns the <code>message</code>  property.</li> <li><b>For other types:</b> Converts to string using <code>String()</code>,  which handles  primitives, objects with <code>toString()</code>, <code>null</code>,  and <code>undefined</code> gracefully.</li> </ul>
 
 Common usage pattern:
 
@@ -85,6 +85,6 @@ try {
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>

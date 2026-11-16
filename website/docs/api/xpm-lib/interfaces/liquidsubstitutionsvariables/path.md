@@ -39,7 +39,7 @@ Provides platform-specific path constants for building file paths in templates. 
 
 Available constants:
 
-<ul> <li><code>path.sep</code>: Platform-specific path separator (/ or )<!-- -->.</li> <li><code>path.delimiter</code>: Platform-specific PATH delimiter (; or :).</li> <li><code>path.posix.\*</code>: Force POSIX conventions regardless of platform.</li> <li><code>path.win32.\*</code>: Force Windows conventions regardless of platform.</li> </ul>
+<ul> <li><code>path.sep</code>: Platform-specific path separator (/ or )<!-- -->.</li> <li><code>path.delimiter</code>: Platform-specific PATH delimiter  (; or :).</li> <li><code>path.posix.\*</code>: Force POSIX conventions regardless  of platform.</li> <li><code>path.win32.\*</code>: Force Windows conventions regardless  of platform.</li> </ul>
 
 Note: For path manipulation, prefer using Liquid filters like `path_join`<!-- -->, `path_dirname`<!-- -->, etc., which handle cross-platform concerns automatically.
 
@@ -47,6 +47,6 @@ See \[Node.js path module documentation\](https://nodejs.org/dist/latest-v16.x/d
 
 <hr/>
 
-<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.58.7.</p>
+<p class="tsdocGeneratedBy">Generated via <a href="https://xpack.github.io/tsdoc2docusaurus">tsdoc2docusaurus</a> 1.3.2 by <a href="https://api-extractor.com">API Extractor/Documenter</a> 7.60.1.</p>
 
 </div>
