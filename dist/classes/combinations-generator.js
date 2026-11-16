@@ -1,3 +1,4 @@
+import assert from 'node:assert';
 import { ConfigurationError } from './errors.js';
 export const COMBINATIONS_GENERATOR_MAX_COMBINATIONS_LIMIT = 42 * 10;
 export class CombinationsGenerator {
@@ -38,6 +39,8 @@ export class CombinationsGenerator {
         }
         const key = this._matrixKeys[index];
         const values = this._matrixValues[index];
+        assert(key !== undefined, 'key must be defined');
+        assert(values !== undefined, 'values must be defined');
         for (const value of values) {
             combination[key] = value;
             yield* this._generateRecursively(index + 1, combination);

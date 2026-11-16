@@ -148,8 +148,7 @@ export class Package {
             }
             if (json?.xpack.buildConfigurations !== undefined &&
                 Object.keys(json.xpack.buildConfigurations).length > 0) {
-                for (const buildConfigurationName of Object.keys(json.xpack.buildConfigurations)) {
-                    const buildConfiguration = json.xpack.buildConfigurations[buildConfigurationName];
+                for (const [buildConfigurationName, buildConfiguration,] of Object.entries(json.xpack.buildConfigurations)) {
                     if (hasLiquidSyntax(buildConfigurationName)) {
                         const buildConfigurationTemplate = buildConfiguration;
                         if (buildConfigurationTemplate.template.actions !== undefined &&
@@ -244,21 +243,16 @@ export class Package {
             if (arr.length > 2) {
                 throw new InputError(`'${npmPackageSpecifier}' not a package name`);
             }
-            scope = arr[0];
-            if (arr.length > 1) {
-                const arr2 = arr[1].split('@');
-                name = arr2[0];
-                if (arr2.length > 1) {
-                    version = arr2[1];
-                }
+            let nameAndVersion;
+            [scope, nameAndVersion] = arr;
+            if (nameAndVersion !== undefined) {
+                ;
+                [name, version] = nameAndVersion.split('@');
             }
         }
         else {
-            const arr2 = npmPackageSpecifier.split('@');
-            name = arr2[0];
-            if (arr2.length > 1) {
-                version = arr2[1];
-            }
+            ;
+            [name, version] = npmPackageSpecifier.split('@');
         }
         log.trace(`${npmPackageSpecifier} => ` +
             `${scope ?? '?'} ${name ?? '?'} ${version ?? '?'}`);

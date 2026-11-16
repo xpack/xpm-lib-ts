@@ -93,7 +93,9 @@ export class BuildConfigurations {
     getJson(buildConfigurationName) {
         assert(this._isInitialised, 'BuildConfigurations collection must be initialised before ' +
             'accessing getJson()');
-        return this.jsonBuildConfigurations[this.getJsonName(buildConfigurationName)];
+        const jsonBuildConfiguration = this.jsonBuildConfigurations[this.getJsonName(buildConfigurationName)];
+        assert(jsonBuildConfiguration, 'jsonBuildConfiguration must be defined for a known name');
+        return jsonBuildConfiguration;
     }
     isHidden(buildConfigurationName) {
         assert(this._isInitialised, 'BuildConfigurations collection must be initialised before ' +
@@ -104,6 +106,7 @@ export class BuildConfigurations {
             return jsonBuildConfigurationTemplate.template.hidden ?? false;
         }
         const jsonBuildConfigurationContent = this.jsonBuildConfigurations[jsonBuildConfigurationName];
+        assert(jsonBuildConfigurationContent, 'jsonBuildConfigurationContent must be defined for a known name');
         return jsonBuildConfigurationContent.hidden ?? false;
     }
     has(buildConfigurationName) {

@@ -65,8 +65,8 @@ export class InitTemplateBase {
                 ? '1 invalid property'
                 : `${String(validationErrors.length)} invalid properties`);
         }
-        const mustAsk = Object.keys(this.propertiesDefinitions).some((key) => {
-            return (this.propertiesDefinitions[key].isMandatory && !config.properties?.[key]);
+        const mustAsk = Object.entries(this.propertiesDefinitions).some(([key, definition]) => {
+            return definition.isMandatory && !config.properties?.[key];
         });
         let isInteractive;
         if (mustAsk) {
@@ -224,11 +224,10 @@ export class InitTemplateBase {
             input: this.process.stdin,
             output: this.process.stdout,
         });
-        for (const name of Object.keys(this.propertiesDefinitions)) {
+        for (const [name, definition] of Object.entries(this.propertiesDefinitions)) {
             if (config.properties[name]) {
                 continue;
             }
-            const definition = this.propertiesDefinitions[name];
             let prompt = `${definition.label}?`;
             switch (definition.type) {
                 case 'select': {
