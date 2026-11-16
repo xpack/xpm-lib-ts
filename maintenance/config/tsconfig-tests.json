@@ -1,6 +1,6 @@
 {
   // DO NOT EDIT! Automatically generated from template file:
-  // {{fromFilePath}}
+  // npm-packages-helper/templates/common/maintenance/config/_xpack/tsconfig-tests-liquid.json
 
   // Type-check the tests (and the sources) without emitting any files.
   // Used by `npm run compile-tests`, to report errors in the tests

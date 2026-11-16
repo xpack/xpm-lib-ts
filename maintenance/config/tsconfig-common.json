@@ -52,6 +52,11 @@
     // Enable error reporting when local variables aren't read.
     "noUnusedLocals": true,
     // Raise an error when a function parameter isn't read.
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    // Interpret optional property types as written, rather than adding
+    // 'undefined'.
+    "exactOptionalPropertyTypes": true,
+    // Add 'undefined' to a type when accessed using an index.
+    "noUncheckedIndexedAccess": true
   }
 }

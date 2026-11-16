@@ -1,0 +1,16 @@
+{
+  // DO NOT EDIT! Automatically generated from template file:
+  // npm-packages-helper/templates/common/_xpack/tsconfig-declarations-liquid.json
+
+  // The second pass of the compilation: emit only the declaration files,
+  // with the comments, which the first pass (tsconfig.json) removes from
+  // the compiled files. The TSDoc comments of the declarations are what
+  // the editors of the users of the package show, together with the
+  // deprecations. See the `compile` script in package.json.
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "removeComments": false
+  }
+}

@@ -13,7 +13,8 @@
   },
   "files": [
     "dist/",
-    "src/"
+    "src/",
+    "!src/README.md"
   ],
   "repository": {
     "type": "git",
@@ -45,7 +46,7 @@
     "@types/tap": "https://www.npmjs.com/package/@types/tap",
     "tap": "https://www.npmjs.com/package/tap",
     "ts-node": "https://www.npmjs.com/package/ts-node",
-    "eslint": "https://www.npmjs.com/package/eslint",
+    "eslint": "https://www.npmjs.com/package/glob",
     "@eslint/js": "https://www.npmjs.com/package/@eslint/js",
     "eslint-config-prettier": "https://www.npmjs.com/package/eslint-config-prettier",
     "typescript-eslint": "https://www.npmjs.com/package/typescript-eslint",
@@ -59,7 +60,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@tsconfig/node22": "^22.0.6",
+    "@tsconfig/node22": "^22.0.7",
     "@types/decompress": "^4.2.7",
     "@types/node": "^26.6.6",
     "@types/npmcli__arborist": "^6.3.1",
@@ -68,29 +69,30 @@
     "@types/semver": "^7.8.0",
     "@types/tap": "^15.0.12",
     "del-cli": "^8.0.1",
-    "eslint": "^10.14.0",
+    "eslint": "^10.15.0",
     "eslint-config-prettier": "^10.1.8",
-    "glob": "^14.0.4",
+    "glob": "^14.0.6",
     "json": "^11.0.0",
     "liquidjs": "^10.30.1",
-    "prettier": "^3.9.10",
+    "prettier": "^3.10.1",
     "tap": "^21.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.72.2"
+    "typescript-eslint": "^8.73.0"
   },
+  "bundleDependencies": [],
   "scripts": {
     "generate-top-commons": "node node_modules/@xpack/npm-packages-helper/maintenance/scripts/generate-top-commons.mjs --xpack",
     "compile-watch": "tsc --project tsconfig.json --watch",
     "prettier": "prettier src tests --write --config maintenance/config/.prettierrc.json --ignore-path maintenance/config/.prettierignore",
     "fix": "eslint --config maintenance/config/eslint.config.js --fix src",
-    "compile": "tsc --project tsconfig.json",
+    "compile": "tsc --project tsconfig.json && tsc --project tsconfig-declarations.json",
     "compile-tests": "tsc --project maintenance/config/tsconfig-tests.json",
     "fix-compile": "npm run prettier && npm run fix && npm run compile",
     "lint": "eslint --config maintenance/config/eslint.config.js src",
     "npm-install": "npm install",
     "npm-link": "npm link",
-    "npm-link-helpers": "npm link @xpack/npm-packages-helper @xpack/docusaurus-template-liquid",
+    "npm-link-helper": "npm link @xpack/npm-packages-helper",
     "npm-link-deps": "npm link @xpack/logger",
     "npm-outdated": "npm outdated",
     "npm-update": "npm update",
@@ -115,10 +117,11 @@
     "show-versions": "echo $(which node) $(node --version) && echo $(which npm) $(npm --version)",
     "pretest-coverage": "npm run lint",
     "pretest-no-coverage": "npm run lint",
-    "prepublishOnly": "npm run lint && npm run test",
-    "postpublish": "git push origin --follow-tags"
+    "prepublishOnly": "npm run test",
+    "postpublish": "git push origin --follow-tags",
+    "update-changelog": "node maintenance/scripts/update-changelog.mjs CHANGELOG.md"
   },
   "engines": {
-    "node": ">=22.0"
+    "node": ">=22.12"
   }
 }
