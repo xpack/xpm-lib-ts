@@ -213,10 +213,10 @@ await t.test(
     const combinations = [...generator.generate()]
 
     // Modify first combination
-    combinations[0].arch = 'modified'
+    combinations[0]!.arch = 'modified'
 
     // Verify second combination is unaffected
-    t.equal(combinations[1].arch, 'arm64', 'combinations are independent')
+    t.equal(combinations[1]!.arch, 'arm64', 'combinations are independent')
   }
 )
 

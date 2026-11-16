@@ -237,7 +237,7 @@ await t.test(
           )
           t.equal(
             config.properties!.stringProp,
-            propertiesDefinitions.stringProp.default,
+            propertiesDefinitions.stringProp!.default,
             'stringProp is default'
           )
 
@@ -248,7 +248,7 @@ await t.test(
           )
           t.equal(
             config.properties!.numberProp,
-            propertiesDefinitions.numberProp.default,
+            propertiesDefinitions.numberProp!.default,
             'numberProp is default'
           )
 
@@ -259,7 +259,7 @@ await t.test(
           )
           t.equal(
             config.properties!.booleanProp,
-            propertiesDefinitions.booleanProp.default,
+            propertiesDefinitions.booleanProp!.default,
             'booleanProp is default'
           )
 
@@ -270,7 +270,7 @@ await t.test(
           )
           t.equal(
             config.properties!.booleanPropTrue,
-            propertiesDefinitions.booleanPropTrue.default,
+            propertiesDefinitions.booleanPropTrue!.default,
             'booleanPropTrue is default'
           )
 
@@ -281,7 +281,7 @@ await t.test(
           )
           t.equal(
             config.properties!.selectProp,
-            propertiesDefinitions.selectProp.default,
+            propertiesDefinitions.selectProp!.default,
             'selectProp is default'
           )
 
@@ -292,7 +292,7 @@ await t.test(
           )
           t.equal(
             config.properties!.selectPropPlatform,
-            propertiesDefinitions.selectPropPlatform.default,
+            propertiesDefinitions.selectPropPlatform!.default,
             'selectPropPlatform is default'
           )
         }

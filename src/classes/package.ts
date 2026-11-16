@@ -27,7 +27,6 @@ import { ConfigurationError, InputError, PrerequisitesError } from './errors.js'
 import { isString } from '../functions/is-something.js'
 import { hasLiquidSyntax } from '../functions/utils.js'
 import {
-  JsonBuildConfiguration,
   JsonBuildConfigurationContent,
   JsonBuildConfigurationTemplate,
   JsonPackageSpecifier,
@@ -145,7 +144,7 @@ export class Package {
    * The cached content improves performance for packages that perform
    * multiple validation checks without file system access overhead.
    */
-  jsonPackage?: JsonXpmPackage
+  jsonPackage?: JsonXpmPackage | undefined
 
   // --------------------------------------------------------------------------
   // Protected Members.
@@ -517,11 +516,10 @@ export class Package {
         json?.xpack.buildConfigurations !== undefined &&
         Object.keys(json.xpack.buildConfigurations).length > 0
       ) {
-        for (const buildConfigurationName of Object.keys(
-          json.xpack.buildConfigurations
-        )) {
-          const buildConfiguration: JsonBuildConfiguration =
-            json.xpack.buildConfigurations[buildConfigurationName]
+        for (const [
+          buildConfigurationName,
+          buildConfiguration,
+        ] of Object.entries(json.xpack.buildConfigurations)) {
           if (hasLiquidSyntax(buildConfigurationName)) {
             const buildConfigurationTemplate =
               buildConfiguration as JsonBuildConfigurationTemplate
@@ -729,29 +727,22 @@ export class Package {
 
     const log = this._log
 
-    let scope
-    let name
-    let version
+    let scope: string | undefined
+    let name: string | undefined
+    let version: string | undefined
 
     if (npmPackageSpecifier.startsWith('@')) {
       const arr = npmPackageSpecifier.split('/')
       if (arr.length > 2) {
         throw new InputError(`'${npmPackageSpecifier}' not a package name`)
       }
-      scope = arr[0]
-      if (arr.length > 1) {
-        const arr2 = arr[1].split('@')
-        name = arr2[0]
-        if (arr2.length > 1) {
-          version = arr2[1]
-        }
+      let nameAndVersion: string | undefined
+      ;[scope, nameAndVersion] = arr
+      if (nameAndVersion !== undefined) {
+        ;[name, version] = nameAndVersion.split('@')
       }
     } else {
-      const arr2 = npmPackageSpecifier.split('@')
-      name = arr2[0]
-      if (arr2.length > 1) {
-        version = arr2[1]
-      }
+      ;[name, version] = npmPackageSpecifier.split('@')
     }
     log.trace(
       `${npmPackageSpecifier} => ` +

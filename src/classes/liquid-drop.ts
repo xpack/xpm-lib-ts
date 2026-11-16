@@ -165,7 +165,7 @@ export class LiquidPropertiesDrop extends liquidjs.Drop {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ): Promise<any> {
     // console.log(key)
-    // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+
     if (this._properties[key] === undefined) {
       throw new TemplateError(`"properties.${key}" not defined`)
     }
@@ -334,7 +334,7 @@ export class LiquidMatrixDrop extends liquidjs.Drop {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ): Promise<any> {
     // console.log(key)
-    // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+
     if (this._matrix[key] === undefined) {
       throw new TemplateError(`"matrix.${key}" not defined`)
     }

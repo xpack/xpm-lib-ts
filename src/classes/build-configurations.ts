@@ -572,9 +572,14 @@ export class BuildConfigurations {
         'accessing getJson()'
     )
 
-    return this.jsonBuildConfigurations[
-      this.getJsonName(buildConfigurationName)
-    ]
+    const jsonBuildConfiguration =
+      this.jsonBuildConfigurations[this.getJsonName(buildConfigurationName)]
+    assert(
+      jsonBuildConfiguration,
+      'jsonBuildConfiguration must be defined for a known name'
+    )
+
+    return jsonBuildConfiguration
   }
 
   /**
@@ -599,8 +604,13 @@ export class BuildConfigurations {
       return jsonBuildConfigurationTemplate.template.hidden ?? false
     }
 
-    const jsonBuildConfigurationContent: JsonBuildConfigurationContent =
+    const jsonBuildConfigurationContent:
+      JsonBuildConfigurationContent | undefined =
       this.jsonBuildConfigurations[jsonBuildConfigurationName]
+    assert(
+      jsonBuildConfigurationContent,
+      'jsonBuildConfigurationContent must be defined for a known name'
+    )
     return jsonBuildConfigurationContent.hidden ?? false
   }
 

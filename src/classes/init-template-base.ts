@@ -372,11 +372,11 @@ export abstract class InitTemplateBase {
     // If there is at least one mandatory property without an explicit value,
     // enter the interactive mode and ask for the missing values.
 
-    const mustAsk = Object.keys(this.propertiesDefinitions).some((key) => {
-      return (
-        this.propertiesDefinitions[key].isMandatory && !config.properties?.[key]
-      )
-    })
+    const mustAsk = Object.entries(this.propertiesDefinitions).some(
+      ([key, definition]) => {
+        return definition.isMandatory && !config.properties?.[key]
+      }
+    )
 
     let isInteractive
     if (mustAsk) {
@@ -691,7 +691,7 @@ export abstract class InitTemplateBase {
     value: string
   ): string | boolean | number {
     const propDef = this.propertiesDefinitions[name]
-    // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+
     if (propDef === undefined) {
       throw new ConfigurationError(`Unsupported property '${name}'`)
     }
@@ -785,11 +785,12 @@ export abstract class InitTemplateBase {
       output: this.process.stdout,
     })
 
-    for (const name of Object.keys(this.propertiesDefinitions)) {
+    for (const [name, definition] of Object.entries(
+      this.propertiesDefinitions
+    )) {
       if (config.properties[name]) {
         continue
       }
-      const definition = this.propertiesDefinitions[name]
       let prompt = `${definition.label}?`
       switch (definition.type) {
         case 'select': {

@@ -55,7 +55,6 @@ const propertiesDefinitions: xpm.InitTemplatePropertiesDefinitions = {
 // ----------------------------------------------------------------------------
 
 t.test('InitTemplateBase - constructor assertions', (t): void => {
-
   class XpmInitTemplate extends xpm.InitTemplateBase {
     async generate(): Promise<void> {
       t.fail('generate() should not be called')

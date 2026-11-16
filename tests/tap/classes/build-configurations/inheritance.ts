@@ -18,7 +18,6 @@
 // https://www.npmjs.com/package/tap
 import t from 'tap'
 
-
 // ----------------------------------------------------------------------------
 
 import * as xpm from '../../../../src/index.js'

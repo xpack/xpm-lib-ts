@@ -102,7 +102,7 @@ await t.test(
 
     t.equal(result.matrixKeys.length, 1, 'has 1 matrix key')
     t.equal(result.matrixKeys[0], 'values', 'key is values')
-    t.equal(result.matrixValues[0].length, 3, 'expanded to 3 values')
+    t.equal(result.matrixValues[0]!.length, 3, 'expanded to 3 values')
     t.same(
       result.matrixValues[0],
       ['value1', 'value2', 'value3'],

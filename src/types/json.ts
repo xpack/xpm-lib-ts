@@ -504,15 +504,15 @@ export interface JsonPackageSpecifier {
   /**
    * The package scope, if present.
    */
-  scope?: string
+  scope?: string | undefined
   /**
    * The package name.
    */
-  name?: string
+  name?: string | undefined
   /**
    * The version specifier, if present.
    */
-  version?: string
+  version?: string | undefined
 }
 
 // ----------------------------------------------------------------------------

@@ -11,6 +11,8 @@
 
 // ----------------------------------------------------------------------------
 
+import assert from 'node:assert'
+
 import { Logger } from '@xpack/logger'
 import { ConfigurationError } from './errors.js'
 
@@ -318,6 +320,8 @@ export class CombinationsGenerator {
 
     const key = this._matrixKeys[index]
     const values = this._matrixValues[index]
+    assert(key !== undefined, 'key must be defined')
+    assert(values !== undefined, 'values must be defined')
 
     for (const value of values) {
       combination[key] = value
